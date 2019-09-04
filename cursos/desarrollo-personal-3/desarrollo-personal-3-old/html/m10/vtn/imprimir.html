@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Ventana de impresi&oacute;n</title>
+<link href="../../../estilos.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body onload="window.print()">
+<table width="100%">
+<tr height="205" valign="top">
+<td>
+<script>
+var muestra = opener.imprime;
+var uno;
+while (uno != -1){
+uno = muestra.indexOf("\n");
+muestra = muestra.replace("\n","<br>");
+}
+document.write(muestra);
+</script>
+</td>
+</tr>
+<tr valign="bottom">
+<td>
+<table width="384" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><div align="center">
+      <p><a href="javascript:window.close();" target="_self" ><img src="../../../imagenes/cerrar.gif" width="40" height="38" border="0"></a></p>
+    </div></td>
+  </tr>
+</table>
+<div align="center">
+        <hr size="1" noshade="noshade" color="#F4F4F4" />
+        <span class="txtSmall">D.R.&copy; Instituto Tecnol&oacute;gico y de Estudios Superiores de Monterrey, Universidad Virtual | M&eacute;xico, 2011.</span></div> 
+</td>
+</tr>
+</table>
+</body>
+</html>

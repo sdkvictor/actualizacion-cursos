@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
-    <title>Módulo 2 | Tema 1: ¿Qué es el Sistema Operativo Windows? | CVA - Centro Virtual de Aprendizaje</title>
+    <title>Módulo 2 | Tema 3: Inicio y cierre de una sesión en Windows | CVA - Centro Virtual de Aprendizaje</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="../../assets/images/logo/favicon.png">
@@ -23,9 +23,25 @@
     <link href="../../assets/css/app.css" rel="stylesheet">
     <link href="../../assets/css/progress.css" rel="stylesheet">
     <link href="../../assets/css/progreso.css" rel="stylesheet">
+
+    <!-- js -->
+    <script>
+        function hideAll() {
+            document.getElementById('iniciarSes').style.display='none';
+            document.getElementById('cerrarSes').style.display='none';
+        }
+        function show1() {
+            hideAll();
+            document.getElementById('iniciarSes').style.display='block';
+        }
+        function show2() {
+            hideAll();
+            document.getElementById('cerrarSes').style.display='block';
+        }
+    </script>
   </head>
 
-  <body class="header-info side-nav-dark">
+  <body onload="hideAll()" class="header-info side-nav-dark">
     <div class="app">
       <div class="layout">
         <!-- Side Nav START -->
@@ -234,102 +250,116 @@
                     <div class="row">
                         <div class="col">
                             <div class="card">
-                                <div class="card-block">
-                                    <h1 class="card-title">¿Qué es el Sistema Operativo Windows?</h1>
-                                    <div class="mrg-top-20">
-                                        <p>
-                                            Sistema Operativo (SO) se puede abreviar como SO Windows. 
-                                            El sistema se llama Windows porque está hecho de varias ventanas, 
-                                            Windows en español significa Ventanas.
-                                            
-                                            Es el software que utiliza la computadora para controlar 
-                                            sus funciones básicas. Cada que usted prende la computadora, 
-                                            el sistema operativo se inicia y permanece encendido hasta 
-                                            que la computadora se apaga.
+                              <div class="row no-gutters">
+                                    <div class="card-body">
+                                      <h1 class="card-title">Tema 3. Inicio y cierre de sesión en Windows</h1>
+                                      <div class="mrg-top-20">
+                                          <p class="text-justify">
+                                            El sistema operativo Windows trabaja por sesiones, es decir, cada que enciende la computadora es una sesión, 
+                                            y cuando apaga la computadora, se cierra esa sesión. Además de las sesiones, una computadora puede ser utilizada 
+                                            por varias personas, y cada persona puede utilizar programas diferentes. Para que cada persona pueda personalizar 
+                                            la computadora, el sistema operativo permite trabajar bajo perfiles.
                                         </p>
-                                        <p>
-                                            Los sistemas operativos se actualizan de forma constante, 
-                                            en la actualidad se están utilizando las versiones Windows 7, 
-                                            Windows 8 y Windows 10.
+                                        <p class="text-justify">
+                                            Un perfil es un nombre que se utiliza para personalizar el funcionamiento y otros aspectos decorativos en su computadora. 
+                                            Es como cuando se arregla la oficina de la forma en que la necesita, esto mismo hace Windows. Cada usuario (persona que utiliza una computadora) 
+                                            puede utilizar un perfil para identificarse y disponer el funcionamiento de la computadora, logrando que al momento de identificarse, 
+                                            Windows recupere y establezca los elementos decorativos y de funcionamiento definidos por el usuario que está empezando a trabajar.
                                         </p>
-                                        <p>
-                                          Ya que conocimos las versiones del sistema, el siguiente paso es aprender a manejar el sistema operativo a través del ratón y el teclado.
-                                        </p>
-                                    </div>     
+                                      </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
-                                <div class="card">
-                                    <div class="card-block">
-                                        <div id="carouselWindowsVersions" class="carousel slide" data-ride="carousel" style="height: 100%; width:100%; overflow: hidden;" align="center">
-                                            <ol class="carousel-indicators">
-                                                <li data-target="#carouselWindowsVersions" data-slide-to="0" class="active"></li>
-                                                <li data-target="#carouselWindowsVersions" data-slide-to="1"></li>
-                                                <li data-target="#carouselWindowsVersions" data-slide-to="2"></li>
-                                            </ol>
-                                            <div class="carousel-inner">
-                                                <div class="carousel-item active">
-                                                    <img class="d-block w-100" src="https://softwaregeeks.co.uk/wp-content/uploads/2018/11/windows-7-professional.jpg" alt="First slide">
-                                                    <div class="carousel-caption d-none d-md-block">
-                                                        <div class="c-caption">
-                                                        <h5 style="color: white">Windows 7</h5>
-                                                        <h6 style="color: white">Versión lanzada en 2009 y ampliamente utilizada, aunque ligeramente menos que Windows 10.</h6>
-                                                        <h6 style="color: white">
-                                                            Esta versión de Windows irá desapareciendo poco a poco, así como lo han estado haciendo versiones 
-                                                            anteriores de este sistema operativo. Sin embargo en muchos lugares se utiliza y es necesario que 
-                                                            identifique sus características y ambiente de trabajo.
-                                                        </h6>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <img class="d-block w-100" src="https://productkey.ph/wp-content/uploads/2017/12/buy-windows-8-product-key-philippines-8.1-professional.jpg" alt="Second slide">
-                                                    <div class="carousel-caption d-none d-md-block">
-                                                        <div class="c-caption">
-                                                        <h5 style="color: white">Windows 8</h5>
-                                                        <h6 style="color: white">Versión lanzada en 2012 que una pequeña cantidad de usuarios utiliza. A pesar de ser la sucesora de Windows 7, esta
-                                                            versión nunca fue completamente bien recibida ni adoptada, por lo que poco tiempo después de ser publicada
-                                                            se lanzó Windows 10.
-                                                        </h6>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <img class="d-block w-100" src="https://msofficeworks.com/wp-content/uploads/2017/06/windows-10-pro-ms-office-works.jpg" alt="Third slide">
-                                                    <div class="carousel-caption d-none d-md-block">
-                                                        <div class="c-caption">
-                                                        <h5 style="color: white">Windows 10</h5>
-                                                        <h6 style="color: white">
-                                                            Versión más reciente lanzada en 2015 y la más utilizada en la actualidad tras superar recientemente por un 
-                                                            pequeño margen a la cantidad de usuarios de Windows 7.
-                                                        </h6>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <a class="carousel-control-prev" href="#carouselWindowsVersions" role="button" data-slide="prev">
-                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                                <span class="sr-only">Previous</span>
-                                            </a>
-                                            <a class="carousel-control-next" href="#carouselWindowsVersions" role="button" data-slide="next">
-                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                                <span class="sr-only">Next</span>
-                                            </a>
-                                        </div>
+                    </div>
+                    </div>
+                    <div class="row">
+                      <div class="col">
+                        <div class="card w-100">
+                            <div class="row">
+                                
+                                    <div class="col-md-6 text-center" style="padding: 1%">
+                                        <img  src="../../assets/images/course/modulo2/w7.png" class="card-img w-75"  alt="Windows 7" style="border-radius: 5%">
+                                        <h3>Windows 7</h3>
+                                           
                                     </div>
-                                </div>
+                                    <div class="col-md-6 text-center" style="padding: 1%">
+                                        <img  src="../../assets/images/course/modulo2/w10.jpg" class="card-img w-75"  alt="Windows 10" style="border-radius: 5%">
+                                        <h3>Windows 10</h3>
+                                    </div>
+                            </div>
                         </div>
-                    </div> 
-
+                      </div>
+                    </div>
+                    <div class="row">
+                        
+                            <div style="width: 100; margin: auto">
+                                <button onclick="show1()" class="btn btn-dark btn-lg" type="button">
+                                    <h3 style="color: white; vertical-align: middle">Cómo iniciar una sesión</h3>
+                                </button>
+                                <button onclick="show2()" class="btn btn-dark btn-lg" type="button">
+                                    <h3 style="color: white; vertical-align: middle">Cómo cerrar una sesión</h3>
+                                </button>
+                              </div>
+                            <div id="iniciarSes" class="w-100">
+                              <div class="card mb-3">
+                                  <div class="row">
+                                      
+                                    <div class="card-body">
+                                        <h2 class="card-title" style="text-align:center">Cómo iniciar una sesión</h2>
+                                        <p class="card-text" style="text-align: center">Cuando la computadora enciende, hay tres opciones para entrar a ella:</p>
+                                        <ul class="card-text pl-5">
+                                            <li>Que entre directamente sin pedir datos de usuario y contraseña.</li>
+                                            <li>Que entre a una pantalla de Windows donde haya varios usuarios (perfiles) pero no se pida contraseña.</li>                                      
+                                            <li>Que entre a una pantalla de Windows donde haya varios usuarios (perfiles) y se pida contraseña.</li>
+                                        </ul>
+                                        <p class="card-text pl-5">Si se pide contraseña, sólo se escribe en el recuadro blanco que aparece y se hace clic en el icono</p>
+                                        <img class="card-img w-25 pl-5" src="../../assets/images/course/modulo2/pwdW7.jpg" alt="login-w7">
+                                    </div>
+                                  </div>
+                                </div>
+                          </div>
+                            <div id="cerrarSes" class="w-100">
+                                <div class="card mb-3">
+                                    <div class="row">
+                                          <div class="card-body">
+                                                <h2 class="card-title" style="text-align:center">Cómo cerrar una sesión</h2>
+                                                <p class="card-text pl-5" style="text-align: center">Cuando se ha terminado de trabajar con la computadora, siempre se deberá salir de Windows; es recomendable guardar todo el trabajo realizado antes de finalizar una sesión, de no ser así se perderá toda la información al apagar el sistema.</p>
+                                                <p class="card-text pl-5" style="text-align: center"><b>Para cerrar una sesión de Windows y apagar la computadora debe seguir los siguientes pasos:</b></p>
+                                                <ol class="card-text pl-5">
+                                                    <li>Cierre todas las aplicaciones o programas que se encuentren abiertos.</li>
+                                                    <li>Haga clic en el botón Inicio (Start)
+                                                        <img class="card-img" style="width: 100px; height: 35px;" src="../../assets/images/course/modulo2/inicioW7.jpg" alt="boton-inicio">
+                                                        <img class="card-img" style="width: 100px; height: 35px;" src="../../assets/images/course/modulo2/inicioW10.jpg" alt="boton-inicio">
+                                                    </li>                                      
+                                                    <li>Haga clic en el icono "Apagar equipo" (Turn Off Computer)
+                                                            <img class="card-img" style="width: 125px; height: 35px;" src="../../assets/images/course/modulo2/apagarW7.jpg" alt="boton-apagar">
+                                                            <img class="card-img" style="width: 125px; height: 35px;" src="../../assets/images/course/modulo2/apagarW10.jpg" alt="boton-apagar">
+                                                    </li>
+                                                    <li>Si no desea apagar el equipo, puede:
+                                                        <ul>
+                                                            <li><b>Suspender (Stand By)</b>: esta opción la puede utilizar para cuando no desea cerrar todos los programas o páginas que tiene abiertos, y va a continuar trabajando en la computadora; temporalmente la puede suspender para que no se quede abierta. Esta característica es particularmente útil para mantener la carga de batería de equipos portátiles y para reducir el consumo de energía cuando equipo está inactivo.</li>
+                                                            <li><b>Reiniciar (Restart)</b>: esta opción se utiliza cuando se ha instalado un programa nuevo, o la computadora marca algún o error, o marca que es necesario reiniciar.</li>
+                                                            <li><b>Cancelar (Cancel)</b>:  cuando no se desea ninguna de las anteriores opciones.</li>
+                                                        </ul>                                                        
+                                                    </li>
+                                                </ol>
+                                                <p class="card-text pl-5">En Windows 7 debe hacer clic en la flecha que aparece junto al botón para acceder a estas opciones:</p>
+                                                <img class="card-img pl-5" style="width: 15%" src="../../assets/images/course/modulo2/opcionesApW7.jpg">
+                                                <p class="card-text pl-5">En Windows 10 al hacer click en el boton de apagar se mostraran estas opciones:</p>
+                                                <img class="card-img pl-5" style="width: 15%" src="../../assets/images/course/modulo2/opcionesApW10.jpg">
+                                          </div>
+                                    </div>
+                                  </div>
+                              </div>
+                    </div>
                     <div class="card widget-feed">
                         <div class="row">
                             <div class="col-lg-8">
                                 <h1 class="feed-title tag tag-info">Módulo 2</h1>
-                                <h1 class="feed-title tag tag-info">Tema 1</h1>
+                                <h1 class="feed-title tag tag-info">Tema 3</h1>
                                 <h3 class="feed-subtitle">Tu Progreso</h3>
                                 <div class="progress" style="height: 20px;" id="bar">
-                                    <div class="progress-bar bg-info" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="max-width: 33%" >33%</div>
+                                    <div class="progress-bar bg-info" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="max-width: 38%" >38%</div>
                                 </div>
                             </div>
                             <div class="col-lg-4">

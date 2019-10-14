@@ -17,7 +17,7 @@
 
 :root {
   /* Cambiar el valor de la variable según la temática del curso.*/
-  --theme-color: #084387;
+  --theme-color: #093b8b;
 }
 
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700|Roboto:300,400,500,700");
@@ -3710,3 +3710,7 @@ glyphs.character-mapping { margin: 0 0 20px 0; padding: 20px 0 20px 30px; color:
 /*----------------------------
 --------- 2. Personalización ---------
 ----------------------------*/
+
+.background-theme-color {
+  background-color: var(--theme-color);
+}

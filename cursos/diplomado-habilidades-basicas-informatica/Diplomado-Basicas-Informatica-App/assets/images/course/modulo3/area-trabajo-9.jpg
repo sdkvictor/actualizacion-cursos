@@ -1,0 +1,248 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0052)http://cca.org.mx/cca/cursos/hbi_3/html/m3/t3/02.htm -->
+<html class="gr__cca_org_mx"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><title>Habilidades Básicas en Informática</title>
+<script async="" src="./area-trabajo-9_files/analytics.js.download"></script><script language="JavaScript" type="text/JavaScript">
+if (navigator.appName == "Microsoft Internet Explorer")
+	{document.write('<LINK HREF="../../../estilos.css" REL="STYLESHEET" TYPE="text/css">')}
+else if (navigator.appName == "Netscape")
+	{document.write('<LINK HREF="../../../estilosFF.css" REL="STYLESHEET" TYPE="text/css">')}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function ayuda(){
+window.open('../../../info_curso/ayuda.htm','guide','toolbar=no,menubar=no,scrollbars=yes,fullscreen=no,resizable=yes');
+}
+function popup(direccion, w, h){
+window.open(direccion, "", 'width=' + w + ', height=' + h + ', resizable=yes, menubar=0, scrollbars=no');
+}
+function allOff(){
+txt0.style.display='none'; txt1.style.display='none'; txt2.style.display='none'; txt3.style.display='none'; txt4.style.display='none'; txt5.style.display='none'; txt6.style.display='none'; txt7.style.display='none'; txt8.style.display='none'; txt9.style.display='none'; txt10.style.display='none'; txt11.style.display='none'; txt12.style.display='none'; txt13.style.display='none'; txt14.style.display='none'; txt15.style.display='none'; txt16.style.display='none';
+}
+function show1(){allOff(); txt1.style.display='block';}
+function show2(){allOff(); txt2.style.display='block';}
+function show3(){allOff(); txt3.style.display='block';}
+function show4(){allOff(); txt4.style.display='block';}
+function show5(){allOff(); txt5.style.display='block';}
+function show6(){allOff(); txt6.style.display='block';}
+function show7(){allOff(); txt7.style.display='block';}
+function show8(){allOff(); txt8.style.display='block';}
+function show9(){allOff(); txt9.style.display='block';}
+function show10(){allOff(); txt10.style.display='block';}
+function show11(){allOff(); txt11.style.display='block';}
+function show12(){allOff(); txt12.style.display='block';}
+function show13(){allOff(); txt13.style.display='block';}
+function show14(){allOff(); txt14.style.display='block';}
+function show15(){allOff(); txt15.style.display='block';}
+function show16(){allOff(); txt16.style.display='block';}
+</script><link href="./area-trabajo-9_files/estilosFF.css" rel="STYLESHEET" type="text/css">
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-43803982-8', 'cca.org.mx');
+  ga('send', 'pageview');
+
+</script>
+</head>
+<body topmargin="0" leftmargin="0" onload="MM_preloadImages(&#39;../../../imagenes/logo_UTV.gif&#39;,&#39;../../../imagenes/logo_curso.gif&#39;,&#39;../../../imagenes/logo_cva.gif&#39;,&#39;../../../imagenes/path01_bg.gif&#39;,&#39;../../../imagenes/path02_bg.gif&#39;)" data-gr-c-s-loaded="true">
+<div id="main">
+<table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+<tbody><tr><td height="88"><a href="http://www.itesm.mx/" target="_blank"><img src="./area-trabajo-9_files/logo_UTV.gif" width="189" height="75" alt="" border="0"></a></td>
+	<td valign="bottom"><a href="http://cca.org.mx/cca/cursos/hbi_3/index.htm"><img src="./area-trabajo-9_files/logo_curso.gif" width="305" height="58" alt="" border="0" vspace="10"></a></td>
+	<td align="right" valign="bottom"><a href="http://www.cca.org.mx/" target="_blank"><img src="./area-trabajo-9_files/logo_cva.gif" width="201" height="46" alt="" border="0" vspace="10" hspace="10"></a></td><td></td></tr>
+</tbody></table>
+
+<div id="path">
+<table cellspacing="0" cellpadding="0" border="0">
+<tbody><tr><td><img src="./area-trabajo-9_files/main_path.gif" width="126" height="29" alt="" border="0"></td>
+	<td class="nav" background="./area-trabajo-9_files/path_bg.gif"><img src="./area-trabajo-9_files/path_bullet.gif" width="6" height="6" alt="" border="0"> <a href="http://cca.org.mx/cca/cursos/hbi_3/index.htm">Inicio</a> / <a href="http://cca.org.mx/cca/cursos/hbi_3/html/m3/temas.htm">Módulo 3</a> / <a href="http://cca.org.mx/cca/cursos/hbi_3/html/m3/temas_gen.htm">Conceptos generales de Office</a> / <span>Tema 3. Área de trabajo de las aplicaciones</span></td></tr>
+</tbody></table>
+	<div id="ayuda">
+	<img src="./area-trabajo-9_files/path_bullet.gif" width="6" height="6" alt="" border="0"> <a href="javascript:ayuda();">Ayuda</a>
+	</div>
+</div>
+
+<div id="left">
+	<img src="./area-trabajo-9_files/main_menu.gif" width="126" height="104" alt="" border="0">
+	<div id="menu">	
+    	<ul>
+        <li><a href="http://cca.org.mx/cca/cursos/hbi_3/html/m3/index.htm">Presentación</a>
+        </li><li><a href="http://cca.org.mx/cca/cursos/hbi_3/html/m3/resultados.htm">Resultados de aprendizaje</a>
+        </li><li><a href="http://cca.org.mx/cca/cursos/hbi_3/html/m3/temas.htm">Temas</a>
+        </li><li><a href="http://cca.org.mx/cca/cursos/hbi_3/html/m3/actividades.htm">Actividades</a>
+        </li><li><a href="http://cca.org.mx/cca/cursos/hbi_3/html/m3/materiales.htm">Materiales</a>
+    	</li></ul>
+	</div>
+</div>
+
+<div id="curso">
+<div class="tm"><b>Módulo 3:</b> ¿Cómo me puede ayudar la computadora en mis actividades?</div>
+<div class="tt">Conceptos generales de Office</div>
+<div class="ts">Tema 3. Área de trabajo de las aplicaciones de Office</div>
+<br>
+Vamos a ver los elementos que nos encontramos en las aplicaciones de Office: Word, Power Point y Excel.
+<br>
+<table id="clic" cellpadding="0" cellspacing="0" align="center">
+<tbody><tr><td align="center"><table>
+    <tbody><tr><td><img src="./area-trabajo-9_files/ic_mouse.gif" width="28" height="29" alt="" border="0" align="middle"></td>
+        <td>Haga clic en las secciones para ver más información.<br>Se marcará con rojo el lugar donde se encuentra ubicado. Lea la descripción.</td></tr>
+    </tbody></table></td></tr>
+</tbody></table>
+
+<table width="80%" cellpadding="0" cellspacing="5" border="0" align="center">
+<tbody><tr><td width="120" valign="top">
+	<table width="100" cellpadding="0" cellspacing="0" border="0"><tbody><tr><td class="btn1" onmouseover="this.className=&#39;btn1on&#39;;" onmouseout="this.className=&#39;btn1&#39;;" onclick="javascript:show1();">Título</td></tr></tbody></table>
+	<br class="px5">
+	<table width="100" cellpadding="0" cellspacing="0" border="0"><tbody><tr><td class="btn2" onmouseover="this.className=&#39;btn2on&#39;;" onmouseout="this.className=&#39;btn2&#39;;" onclick="javascript:show2();">Cinta de opciones</td></tr></tbody></table>
+	<br class="px5">
+	<table width="100" cellpadding="0" cellspacing="0" border="0"><tbody><tr><td class="btn1" onmouseover="this.className=&#39;btn1on&#39;;" onmouseout="this.className=&#39;btn1&#39;;" onclick="javascript:show3();">Menús</td></tr></tbody></table>
+	<br class="px5">
+	<table width="100" cellpadding="0" cellspacing="0" border="0"><tbody><tr><td class="btn1" onmouseover="this.className=&#39;btn1on&#39;;" onmouseout="this.className=&#39;btn1&#39;;" onclick="javascript:show4();">Herramientas</td></tr></tbody></table>
+	<br class="px5">
+	<table width="100" cellpadding="0" cellspacing="0" border="0"><tbody><tr><td class="btn2" onmouseover="this.className=&#39;btn2on&#39;;" onmouseout="this.className=&#39;btn2&#39;;" onclick="javascript:show5();">Herramientas de acceso rápido</td></tr></tbody></table>
+	<br class="px5">
+	<table width="100" cellpadding="0" cellspacing="0" border="0"><tbody><tr><td class="btn2" onmouseover="this.className=&#39;btn2on&#39;;" onmouseout="this.className=&#39;btn2&#39;;" onclick="javascript:show6();">Barras de desplazamiento</td></tr></tbody></table>
+	<br class="px5">
+	<table width="100" cellpadding="0" cellspacing="0" border="0"><tbody><tr><td class="btn1" onmouseover="this.className=&#39;btn1on&#39;;" onmouseout="this.className=&#39;btn1&#39;;" onclick="javascript:show7();">Barra de estado</td></tr></tbody></table>
+	<br class="px5">
+	<table width="100" cellpadding="0" cellspacing="0" border="0"><tbody><tr><td class="btn2" onmouseover="this.className=&#39;btn2on&#39;;" onmouseout="this.className=&#39;btn2&#39;;" onclick="javascript:show8();">Vistas del documento</td></tr></tbody></table>
+	</td>
+	<td width="120" valign="top">
+	<table width="100" cellpadding="0" cellspacing="0" border="0"><tbody><tr><td class="btn1" onmouseover="this.className=&#39;btn1on&#39;;" onmouseout="this.className=&#39;btn1&#39;;" onclick="javascript:show9();">Zoom</td></tr></tbody></table>
+	<br class="px5">
+	<table width="100" cellpadding="0" cellspacing="0" border="0"><tbody><tr><td class="btn2" onmouseover="this.className=&#39;btn2on&#39;;" onmouseout="this.className=&#39;btn2&#39;;" onclick="javascript:show10();">Min, max, cerrar y restaurar</td></tr></tbody></table>
+	<br class="px5">
+	<table width="100" cellpadding="0" cellspacing="0" border="0"><tbody><tr><td class="btn1" onmouseover="this.className=&#39;btn1on&#39;;" onmouseout="this.className=&#39;btn1&#39;;" onclick="javascript:show11();">Regla vertical</td></tr></tbody></table>
+	<br class="px5">
+	<table width="100" cellpadding="0" cellspacing="0" border="0"><tbody><tr><td class="btn1" onmouseover="this.className=&#39;btn1on&#39;;" onmouseout="this.className=&#39;btn1&#39;;" onclick="javascript:show12();">Regla horizontal</td></tr></tbody></table>
+	<br class="px5">
+	<table width="100" cellpadding="0" cellspacing="0" border="0"><tbody><tr><td class="btn2" onmouseover="this.className=&#39;btn2on&#39;;" onmouseout="this.className=&#39;btn2&#39;;" onclick="javascript:show13();">Área de<br> escritura</td></tr></tbody></table>
+	<br class="px5">
+	<table width="100" cellpadding="0" cellspacing="0" border="0"><tbody><tr><td class="btn1" onmouseover="this.className=&#39;btn1on&#39;;" onmouseout="this.className=&#39;btn1&#39;;" onclick="javascript:show14();">Cursor de texto</td></tr></tbody></table>
+	<br class="px5">
+	<table width="100" cellpadding="0" cellspacing="0" border="0"><tbody><tr><td class="btn1" onmouseover="this.className=&#39;btn1on&#39;;" onmouseout="this.className=&#39;btn1&#39;;" onclick="javascript:show15();">Ayuda</td></tr></tbody></table>
+	<br class="px5">
+	<table width="100" cellpadding="0" cellspacing="0" border="0"><tbody><tr><td class="btn1" onmouseover="this.className=&#39;btn1on&#39;;" onmouseout="this.className=&#39;btn1&#39;;" onclick="javascript:show16();">Botón Office</td></tr></tbody></table>	
+	</td>
+	
+	
+	<td width="100%" align="center" valign="top">
+	<div id="txt0" style="display: none;">
+	<img src="./area-trabajo-9_files/t3_p2.jpg" width="476" height="372" alt="" border="0">	</div>
+	
+	<div id="txt1" style="display: none;">
+	<img src="./area-trabajo-9_files/t3_p2-1.jpg" width="476" height="372" alt="" border="0">
+	<div class="tbl_special" style="text-align:left;"><b>Título:</b> Contiene el nombre del documento sobre el que se está trabajando.</div>
+	</div>
+	
+	<div id="txt2" style="display: none;">
+	<img src="./area-trabajo-9_files/t3_p2_2.jpg" width="476" height="372" alt="" border="0">
+	<div class="tbl_special" style="text-align:left;"><b>Cinta  de opciones:</b> Menús y herramientas disponibles para utilizar en la aplicación.</div>
+	</div>
+	
+	<div id="txt3" style="display: none;">
+	<img src="./area-trabajo-9_files/t3_p2_3.jpg" width="476" height="372" alt="" border="0">
+	<div class="tbl_special" style="text-align:left;"><b>Menús y fichas:</b> En ambas versiones de Windows vienen los menús, pero están organizados de diferente forma. En Office 2007 y 2010 reciben el nombre de fichas. Esta es una parte muy importante de la aplicación.</div>
+	</div>
+	
+	<div id="txt4" style="display: none;">
+	<img src="./area-trabajo-9_files/t3_p2_4.jpg" width="476" height="372" alt="" border="0">
+	<div class="tbl_special" style="text-align:left;"><b>Herramientas:</b> Cada menú tiene un subgrupo de herramientas. En cada versión de Office  vienen organizadas de diferente forma. Esta es una parte muy importante de la aplicación.</div>
+	</div>
+	
+	<div id="txt5" style="display: none;">
+	<img src="./area-trabajo-9_files/t3_p2_5.jpg" width="476" height="372" alt="" border="0">
+	<div class="tbl_special" style="text-align:left;"><b>Herramientas de acceso rápido:</b> Contiene las operaciones de uso frecuente en la aplicación. Esta es una de las diferencias del Office 2003 a comparación del 2007 y 2010, más adelante lo veremos.</div>
+	</div>
+	
+	<div id="txt6" style="display: none;">
+	<img src="./area-trabajo-9_files/t3_p2_6.jpg" width="476" height="372" alt="" border="0">
+	<div class="tbl_special" style="text-align:left;"><b>Barras de desplazamiento:</b> Permiten movernos a lo largo y ancho del documento.</div>
+	</div>
+	
+	<div id="txt7" style="display: none;">
+	<img src="./area-trabajo-9_files/t3_p2_7.jpg" width="476" height="372" alt="" border="0">
+	<div class="tbl_special" style="text-align:left;"><b>Barra de estado:</b> Muestra información sobre el número total de páginas del documento, así como la página en la que nos encontramos y el diccionario activado.</div>
+	</div>
+	
+	<div id="txt8" style="display: none;">
+	<img src="./area-trabajo-9_files/t3_p2_8.jpg" width="476" height="372" alt="" border="0">
+	<div class="tbl_special" style="text-align:left;"><b>Vistas del documento:</b> Muestra las diferentes vistas que se pueden tener del documento.</div>
+	</div>
+	
+	<div id="txt9" style="display:none;">
+	<img src="./area-trabajo-9_files/t3_p2_9.jpg" width="476" height="372" alt="" border="0">
+	<div class="tbl_special" style="text-align:left;"><b>Zoom:</b> Permite acercar o alejar la vista del documento en pantalla.</div>
+	</div>
+	
+	<div id="txt10" style="display: block;">
+	<img src="./area-trabajo-9_files/t3_p2_10.jpg" width="476" height="372" alt="" border="0">
+	<div class="tbl_special" style="text-align:left;"><b>Botones de minimizar, maximizar, restaurar y cerrar:</b> Permiten minimizar, maximizar, restaurar y cerrar; en ambas versiones se encuentran en el mismo lugar.
+
+</div>
+	</div>
+	
+	<div id="txt11" style="display: none;">
+	<img src="./area-trabajo-9_files/t3_p2_11.jpg" width="476" height="372" alt="" border="0">
+	<div class="tbl_special" style="text-align:left;"><b>Regla vertical:</b> Estas reglas nos muestran los márgenes del documento, así como el área que tenemos disponible para trabajar. También con estas reglas podemos modificar los valores de los márgenes verticales.
+</div>
+	</div>
+	
+	<div id="txt12" style="display: none;">
+	<img src="./area-trabajo-9_files/t3_p2_12.jpg" width="476" height="372" alt="" border="0">
+	<div class="tbl_special" style="text-align:left;"><b>Regla horizontal:</b> Estas reglas nos muestran los márgenes del documento, así como el área que tenemos disponible para trabajar. También con estas reglas podemos modificar los valores de los márgenes horizontales.
+</div>
+	</div>
+	
+	<div id="txt13" style="display: none;">
+	<img src="./area-trabajo-9_files/t3_p2_13.jpg" width="476" height="372" alt="" border="0">
+	<div class="tbl_special" style="text-align:left;"><b>Área de escritura:</b> Es el área que tiene disponible para la escritura de su documento. Podemos decir que es la hoja donde vamos a escribir. Esta parte es esencial en la aplicación, porque es donde se puede trabajar. 
+</div>
+	</div>
+	
+	<div id="txt14" style="display: none;">
+	<img src="./area-trabajo-9_files/t3_p2_14.jpg" width="476" height="372" alt="" border="0">
+	<div class="tbl_special" style="text-align:left;"><b>Cursor de texto:</b> Es un elemento que nos indica en dónde se insertará el texto que agreguemos. Una característica importante del cursor es que siempre está parpadeando. 
+</div>
+	</div>
+	
+	<div id="txt15" style="display: none;">
+	<img src="./area-trabajo-9_files/t3_p2_15.jpg" width="476" height="372" alt="" border="0">
+	<div class="tbl_special" style="text-align:left;"><b>Ayuda:</b> En este menú encontrará las preguntas y respuestas más frecuentes sobre el uso de la aplicación. En el office 2003 viene como un menú, pero en Office 2007 y 2010 viene un botón separado. 
+</div>
+	</div>
+	
+	<div id="txt16" style="display: none;">
+	<img src="./area-trabajo-9_files/t3_p2-16.jpg" width="400" height="308" alt="" border="0">
+	<div class="tbl_special" style="text-align:left;"><b>Botón Office:</b> este botón sólo se ve en la versión 2007 y tiene algunos menús con acciones básicas que veremos más adelante.</div>
+	</div>
+	</td></tr>
+</tbody></table>
+
+<div class="tbl_boxed">Al terminar, vaya al siguiente tema: Menús y barra de herramientas.</div>
+
+
+    <div id="page">
+    <table cellspacing="0" cellpadding="10" border="0" align="center">
+    <tbody><tr><td><a href="http://cca.org.mx/cca/cursos/hbi_3/html/m3/t3/01.htm"><img src="./area-trabajo-9_files/btn_prev.gif" width="36" height="41" alt="" border="0"></a></td>
+    	<td><a href="http://cca.org.mx/cca/cursos/hbi_3/html/m3/t3/01.htm">1</a> <a href="http://cca.org.mx/cca/cursos/hbi_3/html/m3/t3/02.htm" class="on">2</a></td>
+    	<td><a href="http://cca.org.mx/cca/cursos/hbi_3/html/m3/temas_gen.htm"><img src="./area-trabajo-9_files/btn_next.gif" width="36" height="41" alt="" border="0"></a></td></tr>
+    </tbody></table>
+    </div>
+
+<div id="footer">
+D.R. Instituto Tecnológico y de Estudios Superiores de Monterrey, México, 2011  |  <a href="http://cca.org.mx/cca/cursos/hbi_3/info_curso/legal.htm">Aviso Legal</a>  |  <a href="http://cca.org.mx/cca/cursos/hbi_3/info_curso/creditos.htm">Créditos</a>  |
+</div>
+
+</div>
+</div>
+
+
+
+</body></html>

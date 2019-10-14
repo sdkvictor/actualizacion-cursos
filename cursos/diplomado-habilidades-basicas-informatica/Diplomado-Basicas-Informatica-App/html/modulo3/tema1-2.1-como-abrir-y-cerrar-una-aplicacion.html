@@ -24,6 +24,7 @@
     <link href="../../assets/css/progress.css" rel="stylesheet">
     <link href="../../assets/css/progreso.css" rel="stylesheet">
     <link href="../../assets/css/styles.css" rel="stylesheet">
+    <link href="../../assets/css/modulo3/styles.css" rel="stylesheet">
   </head>
 
   <body class="header-info side-nav-dark">
@@ -234,24 +235,104 @@
           <!-- Content Wrapper START -->
           <div class="main-content">
             <div class="container-fluid">
-              <!-- Your content goes here -->
+              
               <div class="card">
-                <div class="container-fluid">
-                  <div class="row">
-                      <div class="pdd-vertical-30 pdd-horizon-25">
-                        <h1 class="card-title">Introducción</h1>
-                        <p>En este curso obtendrás más información que te facilitará el formar y mantener una granja integral. Conocerás cómo cuidar el bosque y sus cultivos para librarlos de las plagas y de otros enemigos como los incendios.</p>
-                        <p>Como parte del programa de Granjas integrales, la intención de este curso es que aprendas a aprovechar el bosque y proteger sus cultivos, para que así obtengas mayores beneficios.</p>
-                        <p>En este curso te enseñaré lo que es el control biológico, cómo se originan las plagas, cuáles son los enemigos naturales de las plagas, conocerás distintos tipos de plaga, el daño que hacen los incendios forestales y la utilización de barreras rompevientos.</p>
-                        <p>Como una de las formas de contrarrestar los daños de los bosques conocerás técnicas para reforestar, algunos árboles y sus características; además de cómo establecer un semillero de almácigo, el uso del agave cómo uno de los métodos para reforestación y el caso específico de Guanajuato.</p>
-                        <p>Y para cerrar el curso obtendrás algunos consejos para la utilización racional del bosque.</p>
-                        <div class="row text-center">
-                          <div class="col">
-                            <div class="mrg-top-40">
-                              <a href="../temario/temario.html" class="button">Adelante</a>
-                            </div>
+                <div class="overlay-dark bg">
+                  <div class="card-block background-theme-color">
+                    <h1 class="card-title" style="color:#ffffff">
+                      <b>1. Conceptos generales de Office</b>
+                    </h1>
+                  </div>
+                </div>
+                <div class="card-block">
+                  <div class="row mrg-top-10 mrg-btm-30">
+                    <div class="col text-center">
+                      <h1 class="card-title">Abrir y cerrar una aplicación</h1>
+                    </div>
+                  </div>
+                  <h2>¿Cómo abrir una aplicación?</h2>
+                  <div class="flex-row">
+                    <div class="flex-row box-form" id="abrir-app-1">
+                      <p class="block">
+                        Abrir usando explorador
+                      </p>
+                    </div>
+                    <div class="flex-row box-form" id="abrir-app-2">
+                      <p class="block">
+                        Abrir usando acceso directo
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="card-information hidden" id="abrir-app-1-section">
+                    <h1>
+                      Abrir una aplicación usando el explorador
+                    </h1>
+                    <ol>
+                      <li>Hacer clic en Inicio (Start)</li>
+                      <li>Hacer clic en Todos los programas (All Programs)</li>
+                      <li>Busque donde diga "Microsoft Office"</li>
+                      <li>Haga clic en la flechita para ver todas las aplicaciones</li>
+                      <li>Abra la aplicación haciendo clic sobre el nombre: Word, Excel, etc.</li>
+                    </ol>
+                    <img class="center-image" src="../../assets/images/course/modulo3/t2_1a.jpg" alt="Abrir una app usando explorador">
+                  </div>
+
+                  <div class="card-information hidden" id="abrir-app-2-section">
+                      <h1>
+                        Abrir una aplicación usando el acceso directo
+                      </h1>
+                      <p>
+                        Otra forma de iniciar la aplicación es desde un acceso 
+                        directo; ¿recuerda que en el módulo 2 vimos cómo son los accesos directos?
+                      </p>
+                      <p>
+                        Son los íconos que se encuentran normalmente en el escritorio 
+                        y tienen una flechita, como el ejemplo.
+                      </p>
+                      <img class="center-image" src="../../assets/images/course/modulo3/t4_p2_ejer03_1b.gif" alt="Acceso directo IE">
+                      <p>
+                        Para entrar a una aplicación desde un Acceso directo (Shortcut) es necesario lo siguiente:
+                      </p>
+                      <ol>
+                        <li>Localice en el escritorio de su computadora el acceso directo a la aplicación.</li>
+                        <li>Haga doble clic sobre el Ícono.</li>
+                      </ol>
+                    </div>
+
+                  <div class="row text-center">
+                      <div class="col">
+                          <div class="mrg-top-40">
+                              <a href="tema1-2.2-como-abrir-y-cerrar-una-aplicacion.html" class="button">
+                                  Siguiente
+                              </a>
+                              <br>
                           </div>
-                        </div>
+                      </div>
+                  </div>                
+                </div>
+              </div>
+
+              <div class="card widget-feed">
+                <div class="row">
+                  <div class="col-lg-8">
+                    <h1 class="feed-title tag tag-info">Módulo 3</h1>
+                    <h1 class="feed-title tag tag-info">Tema 2</h1>
+                    <h3 class="feed-subtitle">Tu Progreso</h3>
+                    <div class="progress" style="height: 20px;" id="bar">
+                        <div class="progress-bar bg-info" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="max-width: 15%" >15%</div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                      <div class="row">
+                          <div class="col">
+                              <div id="circlecontainer"></div>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="col text-center">
+                              <h3 class="feed-subtitle">Progreso del Módulo</h3>
+                          </div>
                       </div>
                   </div>
                 </div>
@@ -302,5 +383,6 @@
     <!-- endbuild -->
 
     <!-- Insert your dependencies here -->
+    <script src="../../assets/js/modulo3/moduloOffice.js"></script>
   </body>
 </html>

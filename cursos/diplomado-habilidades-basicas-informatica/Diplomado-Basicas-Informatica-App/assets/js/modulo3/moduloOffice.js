@@ -1,6 +1,5 @@
 $(document).ready(() => {
   $('#word-button').on('click', () => {
-    console.log("hello")
     $('#word-button').addClass('selected')
     $('#powerpoint-button').removeClass('selected')
     $('#excel-button').removeClass('selected')
@@ -76,4 +75,115 @@ $(document).ready(() => {
     $('#cerrar-app-2-section').addClass('hidden')
   })
 
+  $('#office-2007').on('click', () => {
+    $('#office-2007').addClass('selected')
+    $('#office-2010').removeClass('selected')
+
+    $('#office-2007-section').removeClass('hidden')
+    $('#office-2010-section').addClass('hidden')
+  })
+  
+  $('#office-2010').on('click', () => {
+    $('#office-2010').addClass('selected')
+    $('#office-2007').removeClass('selected')
+
+    $('#office-2010-section').removeClass('hidden')
+    $('#office-2007-section').addClass('hidden')
+  })
+
+  $('#of2007-1').on('click', () => {
+    $('#of2007-1').addClass('selected')
+    $('#of2007-2').removeClass('selected')
+    $('#of2007-3').removeClass('selected')
+    $('#of2007-4').removeClass('selected')
+
+    $('#of2007-1-section').removeClass('hidden')
+    $('#of2007-2-section').addClass('hidden')
+    $('#of2007-3-section').addClass('hidden')
+    $('#of2007-4-section').addClass('hidden')
+  })
+
+  $('#of2007-2').on('click', () => {
+    $('#of2007-2').addClass('selected')
+    $('#of2007-1').removeClass('selected')
+    $('#of2007-3').removeClass('selected')
+    $('#of2007-4').removeClass('selected')
+
+    $('#of2007-2-section').removeClass('hidden')
+    $('#of2007-1-section').addClass('hidden')
+    $('#of2007-3-section').addClass('hidden')
+    $('#of2007-4-section').addClass('hidden')
+  })
+
+  $('#of2007-3').on('click', () => {
+    $('#of2007-3').addClass('selected')
+    $('#of2007-1').removeClass('selected')
+    $('#of2007-2').removeClass('selected')
+    $('#of2007-4').removeClass('selected')
+
+    $('#of2007-3-section').removeClass('hidden')
+    $('#of2007-1-section').addClass('hidden')
+    $('#of2007-2-section').addClass('hidden')
+    $('#of2007-4-section').addClass('hidden')
+  })
+
+  $('#of2007-4').on('click', () => {
+    $('#of2007-4').addClass('selected')
+    $('#of2007-1').removeClass('selected')
+    $('#of2007-2').removeClass('selected')
+    $('#of2007-3').removeClass('selected')
+
+    $('#of2007-4-section').removeClass('hidden')
+    $('#of2007-1-section').addClass('hidden')
+    $('#of2007-2-section').addClass('hidden')
+    $('#of2007-3-section').addClass('hidden')
+  })
+
+  $('#of2010-1').on('click', () => {
+    $('#of2010-1').addClass('selected')
+    $('#of2010-2').removeClass('selected')
+    $('#of2010-3').removeClass('selected')
+    $('#of2010-4').removeClass('selected')
+
+    $('#of2010-1-section').removeClass('hidden')
+    $('#of2010-2-section').addClass('hidden')
+    $('#of2010-3-section').addClass('hidden')
+    $('#of2010-4-section').addClass('hidden')
+  })
+
+  $('#of2010-2').on('click', () => {
+    $('#of2010-2').addClass('selected')
+    $('#of2010-1').removeClass('selected')
+    $('#of2010-3').removeClass('selected')
+    $('#of2010-4').removeClass('selected')
+
+    $('#of2010-2-section').removeClass('hidden')
+    $('#of2010-1-section').addClass('hidden')
+    $('#of2010-3-section').addClass('hidden')
+    $('#of2010-4-section').addClass('hidden')
+  })
+
+  $('#of2010-3').on('click', () => {
+    $('#of2010-3').addClass('selected')
+    $('#of2010-1').removeClass('selected')
+    $('#of2010-2').removeClass('selected')
+    $('#of2010-4').removeClass('selected')
+
+    $('#of2010-3-section').removeClass('hidden')
+    $('#of2010-1-section').addClass('hidden')
+    $('#of2010-2-section').addClass('hidden')
+    $('#of2010-4-section').addClass('hidden')
+  })
+
+  $('#of2010-4').on('click', () => {
+    $('#of2010-4').addClass('selected')
+    $('#of2010-1').removeClass('selected')
+    $('#of2010-2').removeClass('selected')
+    $('#of2010-3').removeClass('selected')
+
+    $('#of2010-4-section').removeClass('hidden')
+    $('#of2010-1-section').addClass('hidden')
+    $('#of2010-2-section').addClass('hidden')
+    $('#of2010-3-section').addClass('hidden')
+  })
 })

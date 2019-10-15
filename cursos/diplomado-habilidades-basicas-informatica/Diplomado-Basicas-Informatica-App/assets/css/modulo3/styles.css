@@ -70,4 +70,17 @@
 .center-image {
   display: block;
   margin: auto;
+  padding: 1rem;
+}
+
+.nav-area-de-trabajo > li {
+  border-bottom: 1px solid #dee2e6;
+}
+
+.nav-botones-de-comando > li {
+  border-bottom: 1px solid #000000;
+}
+
+.nav-botones-de-comando {
+  border-bottom: 0px; 
 }

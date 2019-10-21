@@ -3170,7 +3170,7 @@ a.card:hover, a.card:focus { -webkit-box-shadow: 0 7px 15px rgba(0, 0, 0, 0.075)
 
 .nav-tabs > li { margin-bottom: -2px; }
 
-.nav-tabs > li > a { margin-right: 0px; line-height: 2; border-radius: 0; color: #515365; opacity: 0.75; border: 0px; border-bottom: 2px solid transparent; display: block; padding: 10px 15px; transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; }
+.nav-tabs > li > a { margin-right: 0px; line-height: 2; border-radius: 0; color: #000000; opacity: 0.75; border: 0px; border-bottom: 2px solid transparent; display: block; padding: 10px 15px; transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; }
 
 .nav-tabs > li > a:hover { border-color: transparent; }
 
@@ -3180,7 +3180,7 @@ a.card:hover, a.card:focus { -webkit-box-shadow: 0 7px 15px rgba(0, 0, 0, 0.075)
 
 .nav-tabs > li > a.active:hover, .nav-tabs > li > a.active:focus { border: 0px; background-color: transparent; border-bottom: 2px solid #7774e7; opacity: 1; }
 
-.nav-tabs > li > a.active.nav-link { border-bottom: 2px solid #7774e7; color: #515365; background-color: transparent; }
+.nav-tabs > li > a.active.nav-link { border-bottom: 2px solid #7774e7; color: #000000; background-color: transparent; }
 
 .nav-tabs .nav-link { border-top: 0px; border-right: 0px; border-left: 0px; }
 
@@ -3190,9 +3190,9 @@ a.card:hover, a.card:focus { -webkit-box-shadow: 0 7px 15px rgba(0, 0, 0, 0.075)
 
 .tab-success .nav-tabs > li > a.active:hover, .tab-success .nav-tabs > li > a.active:focus { border-bottom: 2px solid #37c936; }
 
-.tab-info .nav-tabs > li > a.active { border-bottom: 2px solid #0f9aee; }
+.tab-info .nav-tabs > li > a.active { border-bottom: 2px solid var(--theme-color); }
 
-.tab-info .nav-tabs > li > a.active:hover, .tab-info .nav-tabs > li > a.active:focus { border-bottom: 2px solid #0f9aee; }
+.tab-info .nav-tabs > li > a.active:hover, .tab-info .nav-tabs > li > a.active:focus { border-bottom: 2px solid var(--theme-color); }
 
 .tab-warning .nav-tabs > li > a.active { border-bottom: 2px solid #ffcc00; }
 
@@ -3710,3 +3710,7 @@ glyphs.character-mapping { margin: 0 0 20px 0; padding: 20px 0 20px 30px; color:
 /*----------------------------
 --------- 2. Personalización ---------
 ----------------------------*/
+
+.background-theme-color {
+  background-color: var(--theme-color);
+}

@@ -59,30 +59,30 @@ let htmlModulos = `
     <!-- Módulo 1 -->
     <li class="nav-item dropdown">
         <a class="dropdown-toggle" href="javascript:void(0);">
-            <span class="title side-index-general">Módulo 1: Control <br>biológico</span>
+            <span class="title side-index-general">Módulo 1: Cuida tu salud</span>
             <span class="arrow">
                 <i class="ti-angle-right"></i>
             </span>
         </a>
         <ul class="dropdown-menu">
             <li>
-                <a href="./../modulo1/modulo1-control-biologico.html" class="side-index-general">
-                    Control biológico
+                <a href="./../modulo1/modulo1-diabetes.html" class="side-index-general">
+                    Diabetes
                 </a>
             </li>
             <li>
-                <a href="./../modulo1/modulo1-enemigos-naturales-plagas.html" class="side-index-general">
-                    Enemigos naturales de las plagas
+                <a href="./../modulo1/modulo1-menopausia.html" class="side-index-general">
+                    Menopausia
                 </a>
             </li>
             <li>
-                <a href="./../modulo1/modulo1-consideraciones-control-biologico.html" class="side-index-general">
-                    Consideraciones del control biológico
+                <a href="./../modulo1/modulo1-ejercicio-fisico.html" class="side-index-general">
+                    Ejercicio Físico
                 </a>
             </li>
             <li>
-                <a href="./../modulo1/modulo1-origen-plagas.html" class="side-index-general">
-                    Origen de las plagas
+                <a href="./../modulo1/modulo1-salud-mental.html" class="side-index-general">
+                    Salud mental
                 </a>
             </li>
         </ul>
@@ -91,21 +91,25 @@ let htmlModulos = `
     <!-- Módulo 2 -->
     <li class="nav-item dropdown">
         <a class="dropdown-toggle" href="javascript:void(0);">
-            <span class="title side-index-general">Módulo 2: Enemigos <br>de los
-                bosques</span>
+            <span class="title side-index-general">Módulo 2: Conoce tus derechos</span>
             <span class="arrow">
                 <i class="ti-angle-right"></i>
             </span>
         </a>
         <ul class="dropdown-menu">
             <li>
-                <a href="./../modulo2/modulo2-plagas.html" class="side-index-general">
-                    Las plagas
+                <a href="./../modulo2/modulo2-ser-mujer.html" class="side-index-general">
+                    Ser mujer
                 </a>
             </li>
             <li>
-                <a href="./../modulo2/modulo2-prevencion-incendios.html" class="side-index-general">
-                    Prevención de incendios
+                <a href="./../modulo2/modulo2-derechos-de-la-mujer.html" class="side-index-general">
+                    Derechos de la mujer
+                </a>
+            </li>
+            <li>
+                <a href="./../modulo2/modulo2-riesgos-del-embarazo.html" class="side-index-general">
+                    Riesgos de trabajo en el embarazo
                 </a>
             </li>
         </ul>
@@ -114,38 +118,25 @@ let htmlModulos = `
     <!-- Módulo 3 -->
     <li class="nav-item dropdown">
         <a class="dropdown-toggle" href="javascript:void(0);">
-            <span class="title side-index-general">Módulo 3: <br>Reforestación</span>
+            <span class="title side-index-general">Módulo 3: Protege a tu familia</span>
             <span class="arrow">
                 <i class="ti-angle-right"></i>
             </span>
         </a>
         <ul class="dropdown-menu">
             <li>
-                <a href="./../modulo3/modulo3-guia-establecimiento-reforestacion.html"
-                    class="side-index-general">Guía para el establecimiento y
-                    cuidados de una reforestación
+                <a href="./../modulo3/modulo3-sexualidad.html" class="side-index-general">
+                    Sexualidad
                 </a>
             </li>
             <li>
-                <a href="./../modulo3/modulo3-eucalipto.html" class="side-index-general">
-                    Eucalipto, ejemplo de un árbol ideal para reforestar
+                <a href="./../modulo3/modulo3-mayores.html" class="side-index-general">
+                    Nuestros mayores
                 </a>
             </li>
-        </ul>
-    </li>
-
-    <!-- Módulo 4 -->
-    <li class="nav-item dropdown">
-        <a class="dropdown-toggle" href="javascript:void(0);">
-            <span class="title side-index-general">Módulo 4: Otros <br>ejemplos para <br>elaborar tu curso</span>
-            <span class="arrow">
-                <i class="ti-angle-right"></i>
-            </span>
-        </a>
-        <ul class="dropdown-menu">
             <li>
-                <a href="./../modulo4/otros-ejemplos.html" class="side-index-general">
-                    Otros ejemplos
+                <a href="./../modulo3/modulo3-adicciones.html" class="side-index-general">
+                    Adicciones
                 </a>
             </li>
         </ul>

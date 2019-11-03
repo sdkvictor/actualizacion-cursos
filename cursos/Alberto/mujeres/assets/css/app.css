@@ -3712,3 +3712,7 @@ li {
   margin: 10px 0px; 
   padding: 0px;
 }
+
+.col-3 {
+  max-width: 33%;
+}

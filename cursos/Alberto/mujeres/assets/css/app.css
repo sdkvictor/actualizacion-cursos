@@ -3691,3 +3691,28 @@ glyphs.character-mapping { margin: 0 0 20px 0; padding: 20px 0 20px 30px; color:
 /*----------------------------
 --------- 2. Personalización ---------
 ----------------------------*/
+
+li {
+  margin-bottom: 3px;
+}
+
+.derechoMujer > h2 {
+  font-weight: bold;
+  margin-top: 20px;
+
+}
+
+.derechoMujer > li {
+  margin: 10px 0px;
+}
+
+.blueText {
+  color: blue; 
+  text-align: center; 
+  margin: 10px 0px; 
+  padding: 0px;
+}
+
+.col-3 {
+  max-width: 33%;
+}

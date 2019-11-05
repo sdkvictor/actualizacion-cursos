@@ -2364,7 +2364,7 @@ button.disabled, button:disabled { opacity: 0.5; cursor: not-allowed; }
 
 .btn:active:focus { outline: none; }
 
-.btn-inverse { font-weight: bold; }
+.btn-inverse {  }
 
 .btn-default { color: #515365; background-color: #ffffff; border-color: #fcf0d4; font-weight: 500; }
 
@@ -2402,7 +2402,7 @@ button.disabled, button:disabled { opacity: 0.5; cursor: not-allowed; }
 
 .btn-success.active:hover, .btn-success.active:focus { background-color: #daa520; border-color: #bd8a2c; }
 
-.btn-success.btn-inverse { background-color: #fcf0d4; color: #daa520; border-color: transparent; box-shadow: none; }
+.btn-success.btn-inverse { background-color: #fad579; color: #daa520; border-color: transparent; box-shadow: none; }
 
 .btn-success.btn-inverse:hover, .btn-success.btn-inverse:focus { background-color: #daa520; color: #daa520; border-color: transparent; }
 

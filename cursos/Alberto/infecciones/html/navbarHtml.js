@@ -56,90 +56,45 @@ let htmlModulos = `
     <li>
         <a href="./../temario/temario.html" class="side-index-general">Temario</a>
     </li>
-    <!-- Módulo 1 -->
-    <li class="nav-item dropdown">
-        <a class="dropdown-toggle" href="javascript:void(0);">
-            <span class="title side-index-general">Módulo 1: Cuida tu salud</span>
-            <span class="arrow">
-                <i class="ti-angle-right"></i>
-            </span>
+    <li>
+        <a href="./../temas/tema1.html" class="side-index-general">
+            Tema 1: Resfriado común
         </a>
-        <ul class="dropdown-menu">
-            <li>
-                <a href="./../modulo1/modulo1-diabetes.html" class="side-index-general">
-                    Diabetes
-                </a>
-            </li>
-            <li>
-                <a href="./../modulo1/modulo1-menopausia.html" class="side-index-general">
-                    Menopausia
-                </a>
-            </li>
-            <li>
-                <a href="./../modulo1/modulo1-ejercicio-fisico.html" class="side-index-general">
-                    Ejercicio Físico
-                </a>
-            </li>
-            <li>
-                <a href="./../modulo1/modulo1-salud-mental.html" class="side-index-general">
-                    Salud mental
-                </a>
-            </li>
-        </ul>
     </li>
-
-    <!-- Módulo 2 -->
-    <li class="nav-item dropdown">
-        <a class="dropdown-toggle" href="javascript:void(0);">
-            <span class="title side-index-general">Módulo 2: Conoce tus derechos</span>
-            <span class="arrow">
-                <i class="ti-angle-right"></i>
-            </span>
+    <li>
+        <a href="./../temas/tema2.html" class="side-index-general">
+            Tema 2: La influenza
         </a>
-        <ul class="dropdown-menu">
-            <li>
-                <a href="./../modulo2/modulo2-ser-mujer.html" class="side-index-general">
-                    Ser mujer
-                </a>
-            </li>
-            <li>
-                <a href="./../modulo2/modulo2-derechos-de-la-mujer.html" class="side-index-general">
-                    Derechos de la mujer
-                </a>
-            </li>
-            <li>
-                <a href="./../modulo2/modulo2-riesgos-del-embarazo.html" class="side-index-general">
-                    Riesgos de trabajo en el embarazo
-                </a>
-            </li>
-        </ul>
     </li>
-
-    <!-- Módulo 3 -->
-    <li class="nav-item dropdown">
-        <a class="dropdown-toggle" href="javascript:void(0);">
-            <span class="title side-index-general">Módulo 3: Protege a tu familia</span>
-            <span class="arrow">
-                <i class="ti-angle-right"></i>
-            </span>
+    <li>
+        <a href="./../temas/tema3.html" class="side-index-general">
+            Tema 3: Diferencia entre resfriado e influenza
         </a>
-        <ul class="dropdown-menu">
-            <li>
-                <a href="./../modulo3/modulo3-sexualidad.html" class="side-index-general">
-                    Sexualidad
-                </a>
-            </li>
-            <li>
-                <a href="./../modulo3/modulo3-mayores.html" class="side-index-general">
-                    Nuestros mayores
-                </a>
-            </li>
-            <li>
-                <a href="./../modulo3/modulo3-adicciones.html" class="side-index-general">
-                    Adicciones
-                </a>
-            </li>
-        </ul>
+    </li>
+    <li>
+        <a href="./../temas/tema4.html" class="side-index-general">
+            Tema 4: Descartando rintis alérgica
+        </a>
+    </li>
+    <li>
+        <a href="./../temas/tema5.html" class="side-index-general">
+            Tema 5: Faringoamigdalitis aguda bacteriana
+        </a>
+    </li>
+    <li>
+        <a href="./../temas/tema6.html" class="side-index-general">
+            Tema 6: Complicaciones
+        </a>
+    </li>
+    <li>
+        <a href="./../temas/tema7.html" class="side-index-general">
+            Tema 7: Cuidados generales
+        </a>
+    </li>
+    <li>
+        <a href="./../temas/tema8.html" class="side-index-general">
+            Tema 8: Prevención
+        </a>
     </li>
 </ul>
 `

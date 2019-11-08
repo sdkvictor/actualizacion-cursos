@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
-    <title>Módulo 2 | Tema 5: Explorador de Windows | CVA - Centro Virtual de Aprendizaje</title>
+    <title>Módulo 2 | Temario | CVA - Centro Virtual de Aprendizaje</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="../../assets/images/logo/favicon.png">
@@ -23,12 +23,8 @@
     <link href="../../assets/css/app.css" rel="stylesheet">
     <link href="../../assets/css/progress.css" rel="stylesheet">
     <link href="../../assets/css/progreso.css" rel="stylesheet">
+    <link href="../../assets/css/quiz.css" rel="stylesheet">   
 
-    <style>
-        .tabla-ventanas{
-            width: 50%;
-        }
-    </style>
   </head>
 
   <body class="header-info side-nav-dark">
@@ -308,81 +304,76 @@
           <!-- Header END -->
 
           <!-- Content Wrapper START -->
-          <div class="main-content">
-                <div class="container-fluid">                    
-                    <div class="row">
-                        <div class="col">
-                            <div class="card">
-                              <div class="row no-gutters">
-                                    <div class="card-body">
-                                      <h1 class="card-title">Conclusión</h1>
-                                        <div class="mrg-top-20">
-                                            <p style="text-align: center;">
-                                                <b>¿Logró identificar el sistema operativo que tiene la computadora donde está tomando este curso?</b>
-                                            </p>
-                                            <p>
-                                                Estamos seguros que Sí, además de eso, usted aprendió:
-                                                <ul>
-                                                    <li>Qué es el sistema operativo Windows.</li>
-                                                    <li>Cómo manejar el sistema operativo Windows utilizando el ratón y el teclado.</li>
-                                                    <li>Cómo iniciar y cerrar una sesión de Windows.</li>
-                                                    <li>Los componentes básicos del sistema operativo Windows.</li>
-                                                    <li>El Explorador de Windows.</li>
-                                                </ul>
-                                            </p>
-                                            <p>
-                                                Recuerde que para poder dominar el uso del Windows, basta con practicarlo. Algunos elementos como la barra de menú y la barra de iconos se pueden personalizar, incluso el escritorio. Sin embargo, estos temas no son fundamentales para dominar el uso del sistema operativo, simplemente hacen más amigable la vista del sistema cuando se está trabajando con ella.
-                                            </p>
-                                            <p>
-                                                En el siguiente módulo comenzaremos a conocer y crear archivos, que podrá administrar y organizar a través de lo aprendido en este módulo.
-                                            </p>
+            <div class="main-content">
+                <div class="container-fluid">
+                <!-- Your content goes here -->
+                    <div class="container">
+                        <div class="row"><br>
+                            <span class="image-position">
+                            </span>
+                        </div>
+                        <div class="row"><br><br>
+                            <div class="col-sm-8 col-sm-offset-2">
+                                <div class="loader">                                 
+                                    <div>
+                                        <div id="loadbar" style="display: none;">
+                                            <img src="../../assets/images/course/quiz/load.gif" alt="Loading"  height="100%">
                                         </div>
                                     </div>
+                                    <div id="quiz">
+                                
+                                        <div class="question">
+                                            <h3><span class="label label-warning" id="qid">1</span>
+                                            <span id="question"> ¿Dónde se almacena la información que viaja por la Red?</span>
+                                            </h3>
+                                        </div>
+                                        <ul>
+                                        <li class="quizLi">
+                                            <input type="radio" id="f-option" name="selector" value="1">
+                                            <label for="f-option" class="element-animation">Escuelas</label>
+                                            <div class="check"></div>
+                                        </li>
+                                        
+                                        <li class="quizLi">
+                                            <input type="radio" id="s-option" name="selector" value="2">
+                                            <label for="s-option" class="element-animation">Servidores</label>
+                                            <div class="check"><div class="inside"></div></div>
+                                        </li>
+                                        
+                                        <li class="quizLi">
+                                            <input type="radio" id="t-option" name="selector" value="3">
+                                            <label for="t-option" class="element-animation">Mi computadora</label>
+                                            <div class="check"><div class="inside"></div></div>
+                                        </li>
+                                        </ul>
+                                    </div>
                                 </div>
+                                <div class="text-muted">
+                                    <span id="answer"></span>
+                                </div>
+                                
                             </div>
                         </div>
-                    </div>
-
-                    
-                    
-                    
-                    <div class="card widget-feed">
                         <div class="row">
-                            <div class="col-lg-8">
-                                <h1 class="feed-title tag tag-info">Módulo 2</h1>
-                                <h1 class="feed-title tag tag-info">Conclusión</h1>
-                                <h3 class="feed-subtitle">Tu Progreso</h3>
-                                <div class="progress" style="height: 20px;" id="bar">
-                                    <div class="progress-bar bg-info" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="max-width: 40%" >40%</div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="row">
-                                    <div class="col">
-                                        <div id="circlecontainer"></div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col text-center">
-                                        <h3 class="feed-subtitle">Progreso General del Curso</h3>
-                                    </div>
+                            <div class="col-sm-8 col-sm-offset-2">
+                                <div id="result-of-question" class="pulse animated" style="display: none;">
+                                    <span id="totalCorrect" class="pull-left"></span>
+                                    <table class="table table-hover table-responsive" >
+                                        <thead>
+                                            <tr>
+                                                <th>Pregunta #.</th>
+                                                <th>Tu respuesta</th>
+                                                <th>Resultado</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody id="quizResult"></tbody>
+                                    </table>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-                    <div class="row">
-                        <div class="col text-center">
-                            <div class="btn-group">
-                                <a class="btn btn-default" role="button" href="temario.html">
-                                    <span>Temario</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
-          </div>
+            </div>
           <!-- Content Wrapper END -->
 
           <!-- Footer START -->
@@ -417,6 +408,8 @@
     <script src="../../assets/vendors/bootstrap/dist/js/bootstrap.js"></script>
     <script src="../../assets/vendors/PACE/pace.min.js"></script>
     <script src="../../assets/vendors/perfect-scrollbar/js/perfect-scrollbar.jquery.js"></script>
+    <!-- js -->
+    <script src="../../assets/js/quizes/quiz-M4.js"></script>
 
     <!-- endbuild -->
 

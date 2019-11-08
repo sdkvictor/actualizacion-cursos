@@ -12,11 +12,11 @@ $(function(){
     var questionNo = 0;
     var correctCount = 0;
     var q = [
-        {'Q':'¿Con qué botón se abre el menú contextual?', 'A':2,'C':['Click izquierdo','Click derecho','Rueda/botón central']},
-        {'Q':'Es un nombre que se utiliza para personalizar el funcionamiento y otros aspectos decorativos en su computadora', 'A':3,'C':['Avatar','Home','Perfil']},
-        {'Q':'Es la primera pantalla que aparece una vez que se haya cargado el Sistema Operativo', 'A':1,'C':['Escritorio','Navegador','Configuración']},
-        {'Q':'Herramienta que permite ver lo que se encuentra almacenado en los directorios y carpetas', 'A':2,'C':['Menú Inicio','Explorador de Windows','Panel de Control']},
-        {'Q':'Indica la ruta en donde se encuentra un archivo', 'A':3,'C':['Árbol','Barra de estado','Dirección']}
+        {'Q':'¿Cómo se le llama al conjunto de varias páginas en un servidor?', 'A':2,'C':['Carpeta','Sitio Web','Directorio']},
+        {'Q':'¿Cuál es la característica más importante de una página Web?', 'A':3,'C':['Nombre','Imágenes','Ligas']},
+        {'Q':'Páginas que constituyen el punto de partida para obtener cualquier información que se encuentre en Internet sobre un tema concreto.', 'A':1,'C':['Motores de búsqueda','Wikis','Redes Sociales']},
+        {'Q':'Sitio Web cuyas páginas pueden ser editadas por múltiples usuarios.', 'A':2,'C':['Blog','Wikis','Radio chat']},
+        {'Q':'Programa con el propósito de dañar los datos que existen almacenados y el funcionamiento en una computadora.', 'A':3,'C':['Firewall','Spyware','Virus']}
     ];
 
  
@@ -65,7 +65,7 @@ $(function(){
             $('#loadbar').show();
             questionNo++;
             if((questionNo + 1) > q.length){
-                alert("Quiz completed, Now click ok to get your answer");
+                alert("Quiz completado, Haga click en ok para obtener los resultados");
                 $('label.element-animation').unbind('click');
                 setTimeout(function(){
                     var toAppend = '';
@@ -77,7 +77,7 @@ $(function(){
                         toAppend += '</tr>'
                     });
                     $('#quizResult').html(toAppend);
-                    $('#totalCorrect').html("Total correct: " + correctCount);
+                    $('#totalCorrect').html("Total de correctas: " + correctCount);
                     $('#quizResult').show();
                     $('#loadbar').fadeOut();
                     $('#result-of-question').show();

@@ -314,4 +314,34 @@ $(document).ready(() => {
   $('#word-escondido-4').on('click', () => {
     $('#word-escondido-4').attr("src", "../../assets/images/course/modulo3/word-show-4.gif")
   })
+
+  $('#elem1').on('click', () => {
+    $('#elem1').addClass('selected')
+    $('#elem2').removeClass('selected')
+    $('#elem3').removeClass('selected')
+
+    $('#elem1-section').removeClass('hidden')
+    $('#elem2-section').addClass('hidden')
+    $('#elem3-section').addClass('hidden')
+  })
+
+  $('#elem2').on('click', () => {
+    $('#elem2').addClass('selected')
+    $('#elem1').removeClass('selected')
+    $('#elem3').removeClass('selected')
+
+    $('#elem2-section').removeClass('hidden')
+    $('#elem1-section').addClass('hidden')
+    $('#elem3-section').addClass('hidden')
+  })
+
+  $('#elem3').on('click', () => {
+    $('#elem3').addClass('selected')
+    $('#elem1').removeClass('selected')
+    $('#elem2').removeClass('selected')
+
+    $('#elem3-section').removeClass('hidden')
+    $('#elem1-section').addClass('hidden')
+    $('#elem2-section').addClass('hidden')
+  })
 })

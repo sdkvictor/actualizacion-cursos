@@ -12,6 +12,14 @@
   padding: 5px;
 }
 
+.flex-cursor {
+  align-items: center;
+}
+
+.flex-cursor > div {
+  padding: 20px;
+}
+
 .formato-tabla > div {
   flex-basis: 0;
   flex-grow: 1;
@@ -47,7 +55,7 @@
 
 .text-center-2 > img {
   margin-left: -5px;
-  cursor: pointers;
+  cursor: pointer;
 }
 .underline-box-redo > p {
   margin: 10px;

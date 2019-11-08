@@ -12,6 +12,51 @@
   padding: 5px;
 }
 
+.formato-tabla > div {
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+.formato-links > a {
+  flex-basis: 0;
+  flex-grow: 1;
+}
+.pdd-element {
+  border: 1px solid #000000;
+  padding: 15px;
+  margin: 10px;
+}
+
+.heading-table {
+  background-color: #093b8b;
+  color: white;
+  text-align: center;
+}
+.pdd-extra {
+  padding: 15px;
+}
+
+.underline-box-redo {
+  border: 1px solid #000000;
+  margin: 10px;
+}
+
+.text-center-2 {
+  text-align: center;
+}
+
+.text-center-2 > img {
+  margin-left: -5px;
+  cursor: pointers;
+}
+.underline-box-redo > p {
+  margin: 10px;
+}
+
+.underline-box-redo > p:first-child {
+  margin: 0;
+}
+
 .block {
   font-size: 16px;
   display: block;
@@ -30,9 +75,34 @@
   margin: 10px;
 }
 
+.underline-box {
+  border: 1px solid #000000;
+  margin: 10px;
+  padding: 10px;
+}
+
+.underline-box > p {
+  margin: 0px;
+}
 .box-form:hover {
   background-color: rgba(0, 0, 0, 0.3);
   cursor: pointer;
+}
+
+
+.box-form-special {
+  border: 1px solid #000000;
+  margin: 10px;
+}
+
+.box-form-special:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+
+
+.box-form-special.selected{
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .selected {

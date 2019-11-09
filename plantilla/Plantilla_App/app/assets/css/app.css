@@ -3693,3 +3693,12 @@ glyphs.character-mapping { margin: 0 0 20px 0; padding: 20px 0 20px 30px; color:
 /*----------------------------
 --------- 2. Personalización ---------
 ----------------------------*/
+
+/*-- Para el carousel de librito de cursos de DP --*/
+.carousel-item{
+  height: 80vh;
+} 
+
+.carousel-item img{
+  margin: 0 auto;
+}

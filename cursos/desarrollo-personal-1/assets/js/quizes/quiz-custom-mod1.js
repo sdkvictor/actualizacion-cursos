@@ -12,11 +12,11 @@ $(function(){
     var questionNo = 0;
     var correctCount = 0;
     var q = [
-        {'Q':'¿Con qué botón se abre el menú contextual?', 'A':2,'C':['Click izquierdo','Click derecho','Rueda/botón central']},
-        {'Q':'Es un nombre que se utiliza para personalizar el funcionamiento y otros aspectos decorativos en su computadora', 'A':3,'C':['Avatar','Home','Perfil']},
-        {'Q':'Es la primera pantalla que aparece una vez que se haya cargado el Sistema Operativo', 'A':1,'C':['Escritorio','Navegador','Configuración']},
-        {'Q':'Herramienta que permite ver lo que se encuentra almacenado en los directorios y carpetas', 'A':2,'C':['Menú Inicio','Explorador de Windows','Panel de Control']},
-        {'Q':'Indica la ruta en donde se encuentra un archivo', 'A':3,'C':['Árbol','Barra de estado','Dirección']}
+        {'Q':'Selecciona el sítoma de una persona con baja autoestima', 'A':2,'C':['No todo es mi culpa','Sobreanalización','Todo saldra bien, esto no me detiene']},
+        {'Q':'Las personas con baja autoestima suelen...', 'A':3,'C':['resolver retos','efrentar retos','limitarse y fracasar']},
+        {'Q':'¿Quien es responsable de tu felicidad?', 'A':1,'C':['Tú mismo','Las posesiones que tienes','Tu familia']},
+        {'Q':'¿Cuando se empieza a formar la autoestima?', 'A':2,'C':['desde adultos','desde la niñez','desde la vejez']},
+        {'Q':'Selecciona el sítoma de una persona con baja autoestima', 'A':2,'C':['No todo es mi culpa','Sobreanalización','Todo saldra bien, esto no me detiene']}
     ];
 
  
@@ -54,9 +54,9 @@ $(function(){
         q[questionNo].UA = an;
         if(anscheck){
             correctCount++;
-            q[questionNo].result = "Correct";
+            q[questionNo].result = "Correcto";
         } else {
-            q[questionNo].result = "Incorrect";        
+            q[questionNo].result = "Incorrecto";        
         }
         console.log("CorrectCount:" + correctCount);
         setTimeout(function(){
@@ -64,7 +64,7 @@ $(function(){
             $('#loadbar').show();
             questionNo++;
             if((questionNo + 1) > q.length){
-                alert("Quiz completed, Now click ok to get your answer");
+                alert("Quiz completado, Click ok para conseguir tu resultados");
                 $('label.element-animation').unbind('click');
                 setTimeout(function(){
                     var toAppend = '';
@@ -76,7 +76,7 @@ $(function(){
                         toAppend += '</tr>'
                     });
                     $('#quizResult').html(toAppend);
-                    $('#totalCorrect').html("Total correct: " + correctCount);
+                    $('#totalCorrect').html("Total correctos: " + correctCount);
                     $('#quizResult').show();
                     $('#loadbar').fadeOut();
                     $('#result-of-question').show();

@@ -12,8 +12,8 @@ $(function(){
     var questionNo = 0;
     var correctCount = 0;
     var q = [
-        {'Q':'Paz significa...', 'A':2,'C':['Un lugar sin ruidos','Permanecer en calma aunque tengamos problemas y estemos en dolo','Un lugar sin problemas']},
-        {'Q':'Paz significa...', 'A':2,'C':['Un lugar sin ruidos','Permanecer en calma aunque tengamos problemas y estemos en dolo','Un lugar sin problemas']},
+        {'Q':'Paz significa...', 'A':2,'C':['Un lugar sin ruidos','Permanecer en calma aunque tengamos problemas y estemos en dolor','Un lugar sin problemas']},
+        {'Q':'Paz significa...', 'A':2,'C':['Un lugar sin ruidos','Permanecer en calma aunque tengamos problemas y estemos en dolor','Un lugar sin problemas']},
         {'Q':'¿Qué es la paz interior?', 'A':1,'C':['Es la noción de que todo se encuentra bien','Es la noción de que todo se encuentra mal','Es estar intranquilo con lo que pasa en nuestras vidas']}
     ];
 

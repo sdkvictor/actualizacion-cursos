@@ -95,6 +95,7 @@
 .box-form:hover {
   background-color: rgba(0, 0, 0, 0.3);
   cursor: pointer;
+  transition: all 0.4s ease;
 }
 
 
@@ -103,9 +104,14 @@
   margin: 10px;
 }
 
+.nav-pills > li > a.active.nav-link.theme-color {
+  background-color: #093b8b;
+}
+
 .box-form-special:hover {
   background-color: rgba(0, 0, 0, 0.4);
   cursor: pointer;
+  transition: all 0.4s ease;
 }
 
 

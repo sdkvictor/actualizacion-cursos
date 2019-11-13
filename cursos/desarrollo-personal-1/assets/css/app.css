@@ -31,6 +31,8 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-family: Roboto, -apple-system, system-
 
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small { font-weight: 300; color: #5c5f73; }
 
+.text-hyperlink { color: var(--theme-color) !important;}
+
 h1 { font-size: 26px; }
 
 h2 { font-size: 22px; }
@@ -99,7 +101,7 @@ hr { border-top: 1px solid #e6ecf5; }
 
 .bg-primary { background-color: #7774e7 !important; }
 
-.bg-info { background-color: #40803E !important; }
+.bg-info { background-color: var(--theme-color) !important; }
 
 .bg-success { background-color: #37c936 !important; }
 
@@ -2904,7 +2906,7 @@ label.success { color: #37c936; }
 
 .tag-success { background-color: #37c936; color: #ffffff; }
 
-.tag-info { background-color: #40803E; color: #ffffff; }
+.tag-info { background-color: var(--theme-color); color: #ffffff; }
 
 .tag-warning { background-color: #ffcc00; color: #ffffff; }
 
@@ -3241,7 +3243,7 @@ a.card:hover, a.card:focus { -webkit-box-shadow: 0 7px 15px rgba(0, 0, 0, 0.075)
 
 .accordion .panel-default { background-color: #ffffff; margin-bottom: 15px; border: 1px solid #e6ecf5; }
 
-.accordion .panel-default > .panel-heading { color: #515365; background-color: #72ac25d2; border-color: #e6ecf5; }
+.accordion .panel-default > .panel-heading { color: #515365; background-color: var(--theme-color); border-color: #e6ecf5; }
 
 .accordion .panel-default > .panel-heading + .panel-collapse > .panel-body { border-top-color: #e6ecf5; padding: 10px 20px 20px 20px; }
 
@@ -3691,3 +3693,49 @@ glyphs.character-mapping { margin: 0 0 20px 0; padding: 20px 0 20px 30px; color:
 /*----------------------------
 --------- 2. Personalización ---------
 ----------------------------*/
+
+.centerthingy{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.centeredthingy {
+  display: inline-block;
+  vertical-align: middle;
+  width: 900px;
+  padding: 10px 15px;
+  border: #a0a0a0 solid 1px;
+  background: #f5f5f5;
+}
+.jumbotron-test {
+  font-size: 17px;
+  cursor: pointer;
+  width: 50%;
+  text-align:Center;
+}
+.vertical-centerthingy {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+.card-horizontaly {
+  display: flex;
+  flex: 1 1 auto;
+}
+.imagesize{
+  max-width: 300px;
+  height: 180px;
+}
+.align-ul{
+  position:relative;
+  left:35%;
+  float:left;
+  margin-right:0
+  ;margin-left:0;
+}
+
+/*--theme-color: #f4d03f;*/

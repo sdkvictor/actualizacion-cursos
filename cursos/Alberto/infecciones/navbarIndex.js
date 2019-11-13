@@ -56,99 +56,45 @@ let htmlModulos = `
     <li>
         <a href="html/temario/temario.html" class="side-index-general">Temario</a>
     </li>
-    <!-- Módulo 1 -->
-    <li class="nav-item dropdown">
-        <a class="dropdown-toggle" href="javascript:void(0);">
-            <span class="title side-index-general">Módulo 1: Control <br>biológico</span>
-            <span class="arrow">
-                <i class="ti-angle-right"></i>
-            </span>
+    <li>
+        <a href="./html/temas/tema1.html" class="side-index-general">
+            Tema 1: Resfriado común
         </a>
-        <ul class="dropdown-menu">
-            <li>
-                <a href="html/modulo1/modulo1-control-biologico.html" class="side-index-general">
-                    Control biológico
-                </a>
-            </li>
-            <li>
-                <a href="html/modulo1/modulo1-enemigos-naturales-plagas.html" class="side-index-general">
-                    Enemigos naturales de las plagas
-                </a>
-            </li>
-            <li>
-                <a href="html/modulo1/modulo1-consideraciones-control-biologico.html" class="side-index-general">
-                    Consideraciones del control biológico
-                </a>
-            </li>
-            <li>
-                <a href="html/modulo1/modulo1-origen-plagas.html" class="side-index-general">
-                    Origen de las plagas
-                </a>
-            </li>
-        </ul>
     </li>
-
-    <!-- Módulo 2 -->
-    <li class="nav-item dropdown">
-        <a class="dropdown-toggle" href="javascript:void(0);">
-            <span class="title side-index-general">Módulo 2: Enemigos <br>de los
-                bosques</span>
-            <span class="arrow">
-                <i class="ti-angle-right"></i>
-            </span>
+    <li>
+        <a href="./html/temas/tema2.html" class="side-index-general">
+            Tema 2: La influenza
         </a>
-        <ul class="dropdown-menu">
-            <li>
-                <a href="html/modulo2/modulo2-plagas.html" class="side-index-general">
-                    Las plagas
-                </a>
-            </li>
-            <li>
-                <a href="html/modulo2/modulo2-prevencion-incendios.html" class="side-index-general">
-                    Prevención de incendios
-                </a>
-            </li>
-        </ul>
     </li>
-
-    <!-- Módulo 3 -->
-    <li class="nav-item dropdown">
-        <a class="dropdown-toggle" href="javascript:void(0);">
-            <span class="title side-index-general">Módulo 3: <br>Reforestación</span>
-            <span class="arrow">
-                <i class="ti-angle-right"></i>
-            </span>
+    <li>
+        <a href="./html/temas/tema3.html" class="side-index-general">
+            Tema 3: Diferencia entre resfriado e influenza
         </a>
-        <ul class="dropdown-menu">
-            <li>
-                <a href="html/modulo3/modulo3-guia-establecimiento-reforestacion.html"
-                    class="side-index-general">Guía para el establecimiento y
-                    cuidados de una reforestación
-                </a>
-            </li>
-            <li>
-                <a href="html/modulo3/modulo3-eucalipto.html" class="side-index-general">
-                    Eucalipto, ejemplo de un árbol ideal para reforestar
-                </a>
-            </li>
-        </ul>
     </li>
-
-    <!-- Módulo 4 -->
-    <li class="nav-item dropdown">
-        <a class="dropdown-toggle" href="javascript:void(0);">
-            <span class="title side-index-general">Módulo 4: Otros <br>ejemplos para <br>elaborar tu curso</span>
-            <span class="arrow">
-                <i class="ti-angle-right"></i>
-            </span>
+    <li>
+        <a href="./html/temas/tema4.html" class="side-index-general">
+            Tema 4: Descartando rintis alérgica
         </a>
-        <ul class="dropdown-menu">
-            <li>
-                <a href="html/modulo4/otros-ejemplos.html" class="side-index-general">
-                    Otros ejemplos
-                </a>
-            </li>
-        </ul>
+    </li>
+    <li>
+        <a href="./html/temas/tema5.html" class="side-index-general">
+            Tema 5: Faringoamigdalitis aguda bacteriana
+        </a>
+    </li>
+    <li>
+        <a href="./html/temas/tema6.html" class="side-index-general">
+            Tema 6: Complicaciones
+        </a>
+    </li>
+    <li>
+        <a href="./html/temas/tema7.html" class="side-index-general">
+            Tema 7: Cuidados generales
+        </a>
+    </li>
+    <li>
+        <a href="./html/temas/tema8.html" class="side-index-general">
+            Tema 8: Prevención
+        </a>
     </li>
 </ul>
 `

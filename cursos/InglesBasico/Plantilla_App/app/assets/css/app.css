@@ -3241,9 +3241,9 @@ a.card:hover, a.card:focus { -webkit-box-shadow: 0 7px 15px rgba(0, 0, 0, 0.075)
 
 .accordion .panel-default { background-color: #ffffff; margin-bottom: 15px; border: 1px solid #e6ecf5; }
 
-.accordion .panel-default > .panel-heading { color: #515365; background-color: #72ac25d2; border-color: #e6ecf5; }
+.accordion .panel-default > .panel-heading { color: #515365; background-color: #ffffff; border-color: #e6ecf5; }
 
-.accordion .panel-default > .panel-heading + .panel-collapse > .panel-body { border-top-color: #e6ecf5; padding: 10px 20px 20px 20px; }
+.accordion .panel-default > .panel-heading + .panel-collapse > .panel-body { border-top-color: #daa520; padding: 10px 20px 20px 20px; }
 
 .accordion.border-less .panel-default { border: 0px; border-bottom: 1px solid #e6ecf5; margin-bottom: 0px; }
 
@@ -3251,7 +3251,7 @@ a.card:hover, a.card:focus { -webkit-box-shadow: 0 7px 15px rgba(0, 0, 0, 0.075)
 
 .accordion .panel-title { margin: 0px; }
 
-.accordion .panel-title > a { padding: 20px; display: block; color: #ffffff; }
+.accordion .panel-title > a { padding: 20px; display: block; color: #daa520; }
 
 .accordion .panel-title > a .icon { float: right; margin-top: 5px; transform: rotate(0deg); -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -o-transform: rotate(0deg); -ms-transform: rotate(0deg); transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; }
 
@@ -3279,7 +3279,7 @@ a.card:hover, a.card:focus { -webkit-box-shadow: 0 7px 15px rgba(0, 0, 0, 0.075)
 
 .progress-danger .progress-bar { background-color: #ff3c7e; }
 
-.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th { line-height: 1.8; border-color: #e6ecf5; }
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th { line-height: 2.1; border-color: #e6ecf5; }
 
 .table-sm > tbody > tr > td, .table-sm > tbody > tr > th, .table-sm > tfoot > tr > td, .table-sm > tfoot > tr > th, .table-sm > thead > tr > td, .table-sm > thead > tr > th { padding: 5px; }
 

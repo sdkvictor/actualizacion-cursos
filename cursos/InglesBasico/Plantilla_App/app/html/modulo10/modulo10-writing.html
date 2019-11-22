@@ -1,19 +1,31 @@
 <!DOCTYPE html>
 <html>
     <head>
+            <script> function correct(elem,ans){
+                    if(elem.value!=ans){
+                        elem.style.borderColor="red";
+                    }else{
+                        elem.style.borderColor="#11cc22";
+                        
+                    }
+                }</script>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
-        <title>U10 - Writing | CVA - Centro Virtual de Aprendizaje</title>
+        <title>U10- Writing | CVA - Centro Virtual de Aprendizaje</title>
 
         <!-- Favicon -->
         <link rel="shortcut icon" href="../../assets/images/logo/favicon.png">
 
         <!-- plugins css -->
-        <link rel="stylesheet" href="../../assets/vendors/bootstrap/dist/css/bootstrap.css" />
-        <link rel="stylesheet" href="../../assets/vendors/PACE/themes/blue/pace-theme-minimal.css" />
-        <link rel="stylesheet" href="../../assets/vendors/perfect-scrollbar/css/perfect-scrollbar.min.css" />
+    <link rel="stylesheet" href="../../assets/vendors/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="../../assets/vendors/PACE/themes/blue/pace-theme-minimal.css" />
+    <link rel="stylesheet" href="../../assets/vendors/perfect-scrollbar/css/perfect-scrollbar.min.css" />
 
-        <!-- page plugins css -->
+    <!-- page plugins css -->
+    <link rel="stylesheet" href="../../assets/vendors/selectize/dist/css/selectize.default.css" />
+    <link rel="stylesheet" href="../../assets/vendors/bootstrap-daterangepicker/daterangepicker.css" />
+    <link rel="stylesheet" href="../../assets/vendors/bootstrap-datepicker/dist/css/bootstrap-datepicker3.css" />
+    <link rel="stylesheet" href="../../assets/vendors/summernote/dist/summernote.css" />
 
         <!-- core css -->
         <link href="../../assets/css/ei-icon.css" rel="stylesheet">
@@ -281,294 +293,387 @@
                                                                                     <li class="nav-item">
                                                                                         <a href="#tab-success-2" class="nav-link" role="tab" data-toggle="tab">2</a>
                                                                                     </li>
-                                                                                    <li class="nav-item">
-                                                                                        <a href="#tab-success-3" class="nav-link" role="tab" data-toggle="tab">3</a>
-                                                                                    </li>  
-                                                                                    <li class="nav-item">
-                                                                                            <a href="#tab-success-4" class="nav-link" role="tab" data-toggle="tab">4</a>
-                                                                                        </li>                                                                   
-                                                                                        <li class="nav-item">
-                                                                                                <a href="#tab-success-5" class="nav-link" role="tab" data-toggle="tab">5</a>
-                                                                                            </li> 
-                                                                                            <li class="nav-item">
-                                                                                                    <a href="#tab-success-6" class="nav-link" role="tab" data-toggle="tab">6</a>
-                                                                                                </li> 
+                                                                                   
+                                                                                                                                                      
+                                                                                        
                                                                                 </ul>
                                                                                 <div class="tab-content">
                                                                                     <div role="tabpanel" class="tab-pane fade in active" id="tab-success-1">
                                                                                             <br>
-                                                                                            <div class="row">
-                                                                                                          
-                                            <div class = "col-md-3"> 
-                                            <div class="description">
-                                                            She______my Mother</div>
-                                                        <ol type="a">
-                                                            <li class="choice">
-                                                                <div class="selection">Nice. </div>
-                                                                <div class="response wrong"><span class="wrong"> <code> <i class="ti-close"> </i>  Seguro que es esa?</code> </span>
-                                                                </div>
-                                                            </li>
-                                                            <li class="choice">
-                                                                <div class="selection">Name</div>
-                                                                <div class="response wrong">
-                                                                    <span class="wrong"> <code> <i class="ti-close"> </i>  Recuerda lo visto en el modulo!</code> </span>
-                                                                    
-                                                                </div>
-                                                            </li>
-                                                            <li class="choice">
-                                                                <div class="selection">Is</div>
-                                                                <div class="response right">
-                                                                    <span class="right"> <code><div class ="text-success">  <i class="ti-check"> </i>  Correcto es una forma de decir Ella es mi mama! </div></code> </span>
-                                                                    
-                                                                </div>
-                                                            </li>
-                                                        </ol>
-                                            </div>
-                                            <div class = "col-md-3"> 
+                                                                                            <p> <i><small>  Selecciona las palabras que consideras deben ir en los cuadros de texto</small></i></p>
+                                                                                                                                                 
+                                                                                                                                                         <div class = "col-md-2">  <select id="selectize-group" onchange="correct(this,'4')">
+                                                                                                                                                                <option value="">Pick one to practice</option>
+                                                                                                                                                                 
+                                                                                                                                                                    <option value="1">Choice 1</option>
+                                                                                                                                                                    <option value="2">Choice 2</option>
+                                                                                                                                                                    <option value="2">Choice 3</option>
+                                                                                                                                                            </select></div> <br><p>1. I feel <select id="selectize-group" onchange="correct(this,'4')">
+                                                                                                                                                                <option value="">Select</option>
+                                                                                                                                                                 
+                                                                                                                                                                    <option value="1">doctor </option>
+                                                                                                                                                                    <option value="2"> call</option>
+                                                                                                                                                                    <option value="3">have</option>
+                                                                                                                                                                    <option value="4">terrible</option>
+                                                                                                                                                                    <option value="5">bleeding</option>
+                                                                                                                                                                    <option value="6">cold</option>
+                                                                                                                                                                    <option value="7">feel</option>
+                                                                                                                                                                    <option value="8">temperature</option>
+                                                                                                                                                                    <option value="9">aspirins</option>
+                                                                                                                                                                    <option value="10">How</option>
+                                                                                                                                                                    <option value="11">headache</option>
+                                                                                                                                                                    <option value="12">fever</option>
+                                                                                                                                                                    <option value="13">sick</option>
+                                                                                                                                                            </select>
 
-                                                    <div class="description">
-                                                            ___ to meet you</div>
-                                                        <ol type="a">
-                                                            <li class="choice">
-                                                                <div class="selection">Nice. </div>
-                                                                <div class="response right">
-                                                                    <span class="right"> <code><div class ="text-success">  <i class="ti-check"> </i>  Correcto es una forma de decir Encantado de conocerte! </div></code> </span>
-                                            
-                                                                </div>
-                                                            </li>
-                                                            <li class="choice">
-                                                                <div class="selection">Name</div>
-                                                                <div class="response wrong">
-                                                                    <span class="wrong"> <code> <i class="ti-close"> </i>  Recuerda lo visto en el modulo!</code> </span>
-                                                                    
-                                                                </div>
-                                                            </li>
-                                                            <li class="choice">
-                                                                <div class="selection">Is</div>
-                                                                <div class="response wrong">
-                                                                    <span class="wrong"> <code> <i class="ti-close"> </i>  Seguro?</code> </span>
-                                                                    
-                                                                </div>
-                                                            </li>
-                                                        </ol>
-                                            </div>
-                                            <div class = "col-md-3"> 
-                                                    <div class="description">
-                                                            What`s your______</div>
-                                                        <ol type="a">
-                                                            <li class="choice">
-                                                                <div class="selection">Nice. </div>
-                                                                <div class="response wrong">
-                                                                    <span class="wrong"> <code> <i class="ti-close"> </i>  Estas seguro?</code> </span>
-                                                                </div>
-                                                            </li>
-                                                            <li class="choice">
-                                                                <div class="selection">Name</div>
-                                                                <div class="response right">
-                                                                    <span class="right"> <code><div class ="text-success">  <i class="ti-check"> </i>  Correcto es una forma de decir Cual es tu nombre? </div></code> </span>
-                                            
-                                                                    
-                                                                </div>
-                                                            </li>
-                                                            <li class="choice">
-                                                                <div class="selection">Is</div>
-                                                                <div class="response wrong">
-                                                                    <span class="wrong"> <code> <i class="ti-close"> </i>  Recuerda lo visto en el modulo!</code> </span>
-                                                                                </li>
-                                                        </ol>
-                                            </div>
-                                            
-                                                                                                               
-                                                                                                    </div>
-                                                                                                            
+                                                                                                                                                        <br>2.How do you <select id="selectize-group" onchange="correct(this,'7')">
+                                                                                                                                                                <option value="">Select</option>
+                                                                                                                                                                 
+                                                                                                                                                                <option value="1">doctor </option>
+                                                                                                                                                                    <option value="2"> call</option>
+                                                                                                                                                                    <option value="3">have</option>
+                                                                                                                                                                    <option value="4">terrible</option>
+                                                                                                                                                                    <option value="5">bleeding</option>
+                                                                                                                                                                    <option value="6">cold</option>
+                                                                                                                                                                    <option value="7">feel</option>
+                                                                                                                                                                    <option value="8">temperature</option>
+                                                                                                                                                                    <option value="9">aspirins</option>
+                                                                                                                                                                    <option value="10">How</option>
+                                                                                                                                                                    <option value="11">headache</option>
+                                                                                                                                                                    <option value="12">fever</option>
+                                                                                                                                                                    <option value="13">sick</option>
+                                                                                                                                                                
+                                                                                                                                                               
+                                                                                                                                                                
+                                                                                                                                                            </select>?
+                                                                                                                                                        <br>3. My head hurts. I have a <select id="selectize-group" onchange="correct(this,'11')">
+                                                                                                                                                                <option value="">Select</option>
+                                                                                                                                                                 
+                                                                                                                                                                <option value="1">doctor </option>
+                                                                                                                                                                    <option value="2"> call</option>
+                                                                                                                                                                    <option value="3">have</option>
+                                                                                                                                                                    <option value="4">terrible</option>
+                                                                                                                                                                    <option value="5">bleeding</option>
+                                                                                                                                                                    <option value="6">cold</option>
+                                                                                                                                                                    <option value="7">feel</option>
+                                                                                                                                                                    <option value="8">temperature</option>
+                                                                                                                                                                    <option value="9">aspirins</option>
+                                                                                                                                                                    <option value="10">How</option>
+                                                                                                                                                                    <option value="11">headache</option>
+                                                                                                                                                                    <option value="12">fever</option>
+                                                                                                                                                                    <option value="13">sick</option>
+                                                                                                                                                                
+                                                                                                                                                               
+                                                                                                                                                                
+                                                                                                                                                            </select>
+                                                                                                                                                        <br>4. She is very warm. She has a <select id="selectize-group" onchange="correct(this,'12')">
+                                                                                                                                                                <option value="">Select</option>
+                                                                                                                                                                 
+                                                                                                                                                                <option value="1">doctor </option>
+                                                                                                                                                                    <option value="2"> call</option>
+                                                                                                                                                                    <option value="3">have</option>
+                                                                                                                                                                    <option value="4">terrible</option>
+                                                                                                                                                                    <option value="5">bleeding</option>
+                                                                                                                                                                    <option value="6">cold</option>
+                                                                                                                                                                    <option value="7">feel</option>
+                                                                                                                                                                    <option value="8">temperature</option>
+                                                                                                                                                                    <option value="9">aspirins</option>
+                                                                                                                                                                    <option value="10">How</option>
+                                                                                                                                                                    <option value="11">headache</option>
+                                                                                                                                                                    <option value="12">fever</option>
+                                                                                                                                                                    <option value="13">sick</option>
+                                                                                                                                                                
+                                                                                                                                                               
+                                                                                                                                                                
+                                                                                                                                                            </select>
+                                                                                                                                                        <br>5. I feel sick. Please <select id="selectize-group" onchange="correct(this,'2')">
+                                                                                                                                                                <option value="">Select</option>
+                                                                                                                                                                 
+                                                                                                                                                                <option value="1">doctor </option>
+                                                                                                                                                                    <option value="2"> call</option>
+                                                                                                                                                                    <option value="3">have</option>
+                                                                                                                                                                    <option value="4">terrible</option>
+                                                                                                                                                                    <option value="5">bleeding</option>
+                                                                                                                                                                    <option value="6">cold</option>
+                                                                                                                                                                    <option value="7">feel</option>
+                                                                                                                                                                    <option value="8">temperature</option>
+                                                                                                                                                                    <option value="9">aspirins</option>
+                                                                                                                                                                    <option value="10">How</option>
+                                                                                                                                                                    <option value="11">headache</option>
+                                                                                                                                                                    <option value="12">fever</option>
+                                                                                                                                                                    <option value="13">sick</option>
+                                                                                                                                                                
+                                                                                                                                                               
+                                                                                                                                                                
+                                                                                                                                                            </select> the doctor
+                                                                                                                                                        <br>6. Take 2 <select id="selectize-group" onchange="correct(this,'9')">
+                                                                                                                                                                <option value="">Select</option>
+                                                                                                                                                                 
+                                                                                                                                                                <option value="1">doctor </option>
+                                                                                                                                                                    <option value="2"> call</option>
+                                                                                                                                                                    <option value="3">have</option>
+                                                                                                                                                                    <option value="4">terrible</option>
+                                                                                                                                                                    <option value="5">bleeding</option>
+                                                                                                                                                                    <option value="6">cold</option>
+                                                                                                                                                                    <option value="7">feel</option>
+                                                                                                                                                                    <option value="8">temperature</option>
+                                                                                                                                                                    <option value="9">aspirins</option>
+                                                                                                                                                                    <option value="10">How</option>
+                                                                                                                                                                    <option value="11">headache</option>
+                                                                                                                                                                    <option value="12">fever</option>
+                                                                                                                                                                    <option value="13">sick</option>
+                                                                                                                                                                
+                                                                                                                                                               
+                                                                                                                                                                
+                                                                                                                                                            </select>
+                                                                                                                                                        <br>7. My ear hurts. I <select id="selectize-group" onchange="correct(this,'3')">
+                                                                                                                                                                <option value="">Select</option>
+                                                                                                                                                                 
+                                                                                                                                                                <option value="1">doctor </option>
+                                                                                                                                                                    <option value="2"> call</option>
+                                                                                                                                                                    <option value="3">have</option>
+                                                                                                                                                                    <option value="4">terrible</option>
+                                                                                                                                                                    <option value="5">bleeding</option>
+                                                                                                                                                                    <option value="6">cold</option>
+                                                                                                                                                                    <option value="7">feel</option>
+                                                                                                                                                                    <option value="8">temperature</option>
+                                                                                                                                                                    <option value="9">aspirins</option>
+                                                                                                                                                                    <option value="10">How</option>
+                                                                                                                                                                    <option value="11">headache</option>
+                                                                                                                                                                    <option value="12">fever</option>
+                                                                                                                                                                    <option value="13">sick</option>
+                                                                                                                                                                
+                                                                                                                                                               
+                                                                                                                                                                
+                                                                                                                                                            </select> an earache
+                                                                                                                                                        <br>8. Oh no! I don't feel very well. I'm going to be <select id="selectize-group" onchange="correct(this,'13')">
+                                                                                                                                                                <option value="">Select</option>
+                                                                                                                                                                 
+                                                                                                                                                                <option value="1">doctor </option>
+                                                                                                                                                                    <option value="2"> call</option>
+                                                                                                                                                                    <option value="3">have</option>
+                                                                                                                                                                    <option value="4">terrible</option>
+                                                                                                                                                                    <option value="5">bleeding</option>
+                                                                                                                                                                    <option value="6">cold</option>
+                                                                                                                                                                    <option value="7">feel</option>
+                                                                                                                                                                    <option value="8">temperature</option>
+                                                                                                                                                                    <option value="9">aspirins</option>
+                                                                                                                                                                    <option value="10">How</option>
+                                                                                                                                                                    <option value="11">headache</option>
+                                                                                                                                                                    <option value="12">fever</option>
+                                                                                                                                                                    <option value="13">sick</option>
+                                                                                                                                                                
+                                                                                                                                                               
+                                                                                                                                                                
+                                                                                                                                                            </select>
+                                                                                                                                                        <br>9. You are warm. Let me take your <select id="selectize-group" onchange="correct(this,'8')">
+                                                                                                                                                                <option value="">Select</option>
+                                                                                                                                                                 
+                                                                                                                                                                <option value="1">doctor </option>
+                                                                                                                                                                    <option value="2"> call</option>
+                                                                                                                                                                    <option value="3">have</option>
+                                                                                                                                                                    <option value="4">terrible</option>
+                                                                                                                                                                    <option value="5">bleeding</option>
+                                                                                                                                                                    <option value="6">cold</option>
+                                                                                                                                                                    <option value="7">feel</option>
+                                                                                                                                                                    <option value="8">temperature</option>
+                                                                                                                                                                    <option value="9">aspirins</option>
+                                                                                                                                                                    <option value="10">How</option>
+                                                                                                                                                                    <option value="11">headache</option>
+                                                                                                                                                                    <option value="12">fever</option>
+                                                                                                                                                                    <option value="13">sick</option>
+                                                                                                                                                                
+                                                                                                                                                               
+                                                                                                                                                                
+                                                                                                                                                            </select>
+                                                                                                                                                        <br>10. I’m <select id="selectize-group" onchange="correct(this,'5')">
+                                                                                                                                                                <option value="">Select</option>
+                                                                                                                                                                 
+                                                                                                                                                                <option value="1">doctor </option>
+                                                                                                                                                                    <option value="2"> call</option>
+                                                                                                                                                                    <option value="3">have</option>
+                                                                                                                                                                    <option value="4">terrible</option>
+                                                                                                                                                                    <option value="5">bleeding</option>
+                                                                                                                                                                    <option value="6">cold</option>
+                                                                                                                                                                    <option value="7">feel</option>
+                                                                                                                                                                    <option value="8">temperature</option>
+                                                                                                                                                                    <option value="9">aspirins</option>
+                                                                                                                                                                    <option value="10">How</option>
+                                                                                                                                                                    <option value="11">headache</option>
+                                                                                                                                                                    <option value="12">fever</option>
+                                                                                                                                                                    <option value="13">sick</option>
+                                                                                                                                                                
+                                                                                                                                                               
+                                                                                                                                                                
+                                                                                                                                                            </select>. I cut my finger and I need a band-aid
+                                                                                                                                                        <br>11. Call the <select id="selectize-group" onchange="correct(this,'1')">
+                                                                                                                                                                <option value="">Select</option>
+                                                                                                                                                                 
+                                                                                                                                                                <option value="1">doctor </option>
+                                                                                                                                                                    <option value="2"> call</option>
+                                                                                                                                                                    <option value="3">have</option>
+                                                                                                                                                                    <option value="4">terrible</option>
+                                                                                                                                                                    <option value="5">bleeding</option>
+                                                                                                                                                                    <option value="6">cold</option>
+                                                                                                                                                                    <option value="7">feel</option>
+                                                                                                                                                                    <option value="8">temperature</option>
+                                                                                                                                                                    <option value="9">aspirins</option>
+                                                                                                                                                                    <option value="10">How</option>
+                                                                                                                                                                    <option value="11">headache</option>
+                                                                                                                                                                    <option value="12">fever</option>
+                                                                                                                                                                    <option value="13">sick</option>
+                                                                                                                                                                
+                                                                                                                                                               
+                                                                                                                                                                
+                                                                                                                                                            </select>. I feel terrible. Ah-Choooo! I have a <select id="selectize-group" onchange="correct(this,'6')">
+                                                                                                                                                                    <option value="">Select</option>
+                                                                                                                                                                     
+                                                                                                                                                                    <option value="1">doctor </option>
+                                                                                                                                                                        <option value="2"> call</option>
+                                                                                                                                                                        <option value="3">have</option>
+                                                                                                                                                                        <option value="4">terrible</option>
+                                                                                                                                                                        <option value="5">bleeding</option>
+                                                                                                                                                                        <option value="6">cold</option>
+                                                                                                                                                                        <option value="7">feel</option>
+                                                                                                                                                                        <option value="8">temperature</option>
+                                                                                                                                                                        <option value="9">aspirins</option>
+                                                                                                                                                                        <option value="10">How</option>
+                                                                                                                                                                        <option value="11">headache</option>
+                                                                                                                                                                        <option value="12">fever</option>
+                                                                                                                                                                        <option value="13">sick</option>
+                                                                                                                                                                    
+                                                                                                                                                                   
+                                                                                                                                                                    
+                                                                                                                                                                </select>
+                                                                                                                                                        <br>12. <select id="selectize-group" onchange="correct(this,'10')">
+                                                                                                                                                                <option value="">Select</option>
+                                                                                                                                                                 
+                                                                                                                                                                <option value="1">doctor </option>
+                                                                                                                                                                    <option value="2"> call</option>
+                                                                                                                                                                    <option value="3">have</option>
+                                                                                                                                                                    <option value="4">terrible</option>
+                                                                                                                                                                    <option value="5">bleeding</option>
+                                                                                                                                                                    <option value="6">cold</option>
+                                                                                                                                                                    <option value="7">feel</option>
+                                                                                                                                                                    <option value="8">temperature</option>
+                                                                                                                                                                    <option value="9">aspirins</option>
+                                                                                                                                                                    <option value="10">How</option>
+                                                                                                                                                                    <option value="11">headache</option>
+                                                                                                                                                                    <option value="12">fever</option>
+                                                                                                                                                                    <option value="13">sick</option>
+                                                                                                                                                                
+                                                                                                                                                               
+                                                                                                                                                                
+                                                                                                                                                            </select> you feel</p>
+                                                                                                    
+                                                                                            
                                                                                     </div>
     
-                                                                                    <div role="tabpanel" class="tab-pane fade" id="tab-success-2">
+                                                                                    <div role="tabpanel" class="tab-pane fade" id="tab-success-2"><br>
+                                                                                            <h4 class="card-title no-mrg-btm">
+                                                                                            Add and remove items accordingly </h4><br>
+                                                                                        <div class = "row"> 
+
+                                                                                            <div class = col-md-4> 
+                                                                                                    <p> <small> Which parts of the body come in pairs? </small></p>
+                                                                                            <select id="selectize-tags-1" name="person" multiple class="item-info">
+                                                                                        
+                                                                                                    
+                                                                                                    <option value="1">elbow</option>
+                                                                                                    <option value="2" selected>eyes</option>
+                                                                                                    <option value="3">heel</option>
+                                                                                                    <option value="4">chin</option>
+                                                                                                    <option value="5">thigh</option>
+                                                                                                    <option value="6">nose</option>
+                                                                                                    <option value="7">wrist</option>
+                                                                                                    <option value="8">feet</option>
+                                                                                                    <option value="11">arms</option>
+                                                                                                    <option value="21">knee</option>
+                                                                                                    <option value="31">neck</option>
+                                                                                                    <option value="41">hands</option>
+                                                                                                    <option value="51">head</option>
+                                                                                                    <option value="61">shin</option>
+                                                                                                    <option value="71">shoulder</option>
+                                                                                                    <option value="81">ears</option>
+                                                                                                    <option value="91">ankle</option>
+                                                                                                    <option value="101">legs</option>
+                                                                                                    <option value="111">mouth</option>
+
+                                                                                                </select>
+                                                                                            </div>
+                                                                                            <div class = col-md-4> 
+                                                                                                    <p> <small> Which parts of the body are in your head? </small></p>
+
+                                                                                                    <select id="selectize-tags-2" name="person1" multiple class="item-info">
+                                                                                                            <option value="1">elbow</option>
+                                                                                                    <option value="2" selected>eyes</option>
+                                                                                                    <option value="3">heel</option>
+                                                                                                    <option value="4">chin</option>
+                                                                                                    <option value="5">thigh</option>
+                                                                                                    <option value="6">nose</option>
+                                                                                                    <option value="7">wrist</option>
+                                                                                                    <option value="8">feet</option>
+                                                                                                    <option value="11">arms</option>
+                                                                                                    <option value="21">knee</option>
+                                                                                                    <option value="31">neck</option>
+                                                                                                    <option value="41">hands</option>
+                                                                                                    <option value="51">head</option>
+                                                                                                    <option value="61">shin</option>
+                                                                                                    <option value="71">shoulder</option>
+                                                                                                    <option value="81">ears</option>
+                                                                                                    <option value="91">ankle</option>
+                                                                                                    <option value="101">legs</option>
+                                                                                                    <option value="111">mouth</option>
+                                                                                                        </select>
+                                                                                                    </div>
+                                                                                                    
+                                                            
+                                                                                        
+                                                                                                    </div>
+
+
     <br>
-    <div class="row">
-                  
-<div class = "col-md-3"> 
-        <div class="description">
-                Nice to meet you ______</div>
-            <ol type="a">
-                <li class="choice">
-                    <div class="selection">This. </div>
-                    <div class="response wrong">
-                        <span class="wrong"> <code> <i class="ti-close"> </i>  Recuerda lo visto en el modulo!</code> </span>
-
-                    </div>
-                </li>
-                <li class="choice">
-                    <div class="selection">too</div>
-                    <div class="response right">
-                        <span class="right"><code><div class ="text-success">  <i class="ti-check"> </i>  Correcto es una forma de decir es un gusto conocerte tambien! </div></code> </span>
+                                              </div>
+                                              <div role="tabpanel" class="tab-pane fade" id="tab-success-3">
+                                                    <div class = "row"> 
+                                                        <div class = col-md-6> 
+                                                        <select id="selectize-tags-1" name="person" multiple class="item-info">
+                                                                <option value="" disabled selected>Select a person...</option>
+                                                                <option value="1">Adam</option>
+                                                                <option value="2" selected>Amalie</option>
+                                                                <option value="3">Estefanía</option>
+                                                                <option value="4">Adrian</option>
+                                                                <option value="5">Wladimir</option>
+                                                                <option value="6">Samantha</option>
+                                                                <option value="7">Nicole</option>
+                                                                <option value="8" selected>Michael</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class = col-md-6> 
+                                                                <select id="selectize-tags-2" name="person1" multiple class="item-info">
+                                                                        <option value="" disabled selected>Select a person...</option>
+                                                                        <option value="1">Adam</option>
+                                                                        <option value="2" selected>Amalie</option>
+                                                                        <option value="3">Estefanía</option>
+                                                                        <option value="4">Adrian</option>
+                                                                        <option value="5">Wladimir</option>
+                                                                        <option value="6">Samantha</option>
+                                                                        <option value="7">Nicole</option>
+                                                                        <option value="8" selected>Michael</option>
+                                                                    </select>
+                                                                </div>
+                                                                
                         
-                    </div>
-                </li>
-                <li class="choice">
-                    <div class="selection">are</div>
-                    <div class="response wrong">
-                        <span class="wrong"> <code> <i class="ti-close"> </i>  Recuerda lo visto en clase!</code> </span>
+                                                    
+                                                                </div>
 
-                        
-                    </div>
-                </li>
-            </ol>
-</div>
-<div class = "col-md-3"> 
 
-        <div class="description">
-                How____ you?</div>
-             <ol type="a">
-                 <li class="choice">
-                     <div class="selection">This. </div>
-                     <div class="response wrong">
-                         <span class="wrong"> <code> <i class="ti-close"> </i>  Seguro? </code></span>
- 
-                    </div>
-                 </li>
-                 <li class="choice">
-                     <div class="selection">too</div>
-                     <div class="response wrong">
-                         <span class="wrong"> <code> <i class="ti-close"> </i>  Recuerda lo visto en el modulo!</code> </span>
-                         
-                     </div>
-                 </li>
-                 <li class="choice">
-                     <div class="selection">are</div>
-                     <div class="response right">
-                         <span class="right"><code><div class ="text-success">  <i class="ti-check"> </i>  Correcto es como decir Como estas? </div></code> </span>
-                         
-                     </div>
-                 </li>
-             </ol>
- 
-</div>
-<div class = "col-md-3"> 
-        <div class="description">
-                ______ is my friend, Laura</div>
-             <ol type="a">
-                 <li class="choice">
-                     <div class="selection">This. </div>
-                     <div class="response right">
-                         <span class="right"> 
- <code><div class ="text-success">  <i class="ti-check"> </i>  Correcto </div></code>
- </span>
-                     </div>
-                 </li>
-                 <li class="choice">
-                     <div class="selection">too</div>
-                     <div class="response wrong">
-                         <span class="wrong"> <code> <i class="ti-close"> </i>  Recuerda lo visto en el modulo!</code> </span>
- 
-                         
-                     </div>
-                 </li>
-                 <li class="choice">
-                     <div class="selection">are</div>
-                     <div class="response wrong">
-                         <span class="wrong"> <code> <i class="ti-close"> </i>  Recuerda lo visto en el modulo!</code> </span>
- 
-                                     </li>
-             </ol>
-</div>
-
-                       
-            </div>
-                                                                                        </div>
+<br>
+          </div>
                                         
-                                                                                    <div role="tabpanel" class="tab-pane fade" id="tab-success-3">
-                                                                                  <br>
-                                                                                  <div class="row">
-                  
-                                                                                        <div class = "col-md-3"> 
-                                                                                                <div class="description">
-                                                                                                        Would you___ something to drink? </div>
-                                                                                                    <ol type="a">
-                                                                                                        <li class="choice">
-                                                                                                            <div class="selection">need. </div>
-                                                                                                            <div class="response wrong">
-                                                                                                                <span class="wrong"> <code> <i class="ti-close"> </i>  Recuerda lo visto en el modulo!</code> </span>
-                                                                                        
-                                                                                                            </div>
-                                                                                                        </li>
-                                                                                                        <li class="choice">
-                                                                                                            <div class="selection">you</div>
-                                                                                                            <div class="response wrong">
-                                                                                                                <span class="wrong"> <code> <i class="ti-close"> </i>  Recuerda lo visto en el modulo!</code> </span>
-                                                                                        
-                                                                                                                
-                                                                                                            </div>
-                                                                                                        </li>
-                                                                                                        <li class="choice">
-                                                                                                            <div class="selection">like</div>
-                                                                                                            <div class="response right">
-                                                                                                                <span class="right"><code><div class ="text-success">  <i class="ti-check"> </i>  Correcto: Quieres algo de tomar? </div></code></span>
-                                                                                                                
-                                                                                                            </div>
-                                                                                                        </li>
-                                                                                                    </ol>
-                                                                                        </div>
-                                                                                        <div class = "col-md-3"> 
-                                                                                        
-                                                                                                <div class="description">
-                                                                                                        If you _____ anything, ask me</div>
-                                                                                                               <ol type="a">
-                                                                                                        <li class="choice">
-                                                                                                            <div class="selection">need. </div>
-                                                                                                            <div class="response right">
-                                                                                                                <span class="right"> <code><div class ="text-success">  <i class="ti-check"> </i>  Correcto </div></code> </span>
-                                                                                                            </div>
-                                                                                                        </li>
-                                                                                                        <li class="choice">
-                                                                                                            <div class="selection">you</div>
-                                                                                                            <div class="response wrong">
-                                                                                                                <span class="wrong"> <code> <i class="ti-close"> </i>  Recuerda lo visto en el modulo!</code> </span>
-                                                                                        
-                                                                                                                
-                                                                                                            </div>
-                                                                                                        </li>
-                                                                                                        <li class="choice">
-                                                                                                            <div class="selection">like</div>
-                                                                                                            <div class="response wrong">
-                                                                                                                <span class="wrong"><span class="wrong"> <code> <i class="ti-close"> </i>  Seguro?</code> </span>
-                                                                                        </span>
-                                                                                                                
-                                                                                                            </div>
-                                                                                                        </li>
-                                                                                                    </ol>
-                                                                                         
-                                                                                        </div>
-                                                                                        <div class = "col-md-3"> 
-                                                                                                <div class="description">
-                                                                                                        Thank_____ very much</div>
-                                                                                                                <ol type="a">
-                                                                                                        <li class="choice">
-                                                                                                            <div class="selection">need. </div>
-                                                                                                            <div class="response wrong">
-                                                                                                                <span class="wrong"> <code> <i class="ti-close"> </i>  Seguro?</code> </span>
-                                                                                        
-                                                                                                            </div>
-                                                                                                        </li>
-                                                                                                        <li class="choice">
-                                                                                                            <div class="selection">you</div>
-                                                                                                            <div class="response right">
-                                                                                                                <span class="right"><code><div class ="text-success">  <i class="ti-check"> </i>  Correcto esto es: Muchas gracias </div></code></span>
-                                                                                                                
-                                                                                                            </div>
-                                                                                                        </li>
-                                                                                                        <li class="choice">
-                                                                                                            <div class="selection">like</div>
-                                                                                                            <div class="response wrong">
-                                                                                                                <span class="wrong"> <code> <i class="ti-close"> </i>  Recuerda lo visto en el modulo!</code> </span>
-                                                                                        
-                                                                                                                
-                                                                                                            </div>
-                                                                                                        </li>
-                                                                                                    </ol>
-                                                                                        </div>
-                                                                                        
-                                                                                                               
+                                                                                    <div role="tabpanel" class="tab-pane fade" id="tab-success-31">
+                                                                                            <br><div class="image-container col-md-10">
+                                                                                                    <img class="img-fluid " src="../../assets/images/Captura de pantalla (557).png" ></img>
                                                                                                     </div>
                                                                                     </div>
                                        
@@ -577,97 +682,13 @@
                                                                                                                                                <div role="tabpanel" class="tab-pane fade" id="tab-success-4">
                                                                                                                                              <br>
                                                                                                                                              <div class="row">
-                                                                             
-                                                                                                                                                   <div class = "col-md-3"> 
-                                                                                                                                                        <div class="description">
-                                                                                                                                                                _____ to our class</div>
-                                                                                                                                                            <ol type="a">
-                                                                                                                                                                <li class="choice">
-                                                                                                                                                                    <div class="selection">Where </div>
-                                                                                                                                                                    <div class="response wrong">
-                                                                                                                                                                        <span class="wrong"> <code> <i class="ti-close"> </i>  Recuerda lo visto en el modulo!</code> </span>
+                                                                                                                                                    <div class="col-md-12">
+                                                                                                                                                        <h5 class="card-title">Write your own letter </h5>
+                                                                                                                                                        <div id="summernote-usage"></div>
+                                                                                                                                                    </div>
+                                                                                                                                                </div>
+                                                                                                                                             
                                                                                                                                                 
-                                                                                                                                                                    </div>
-                                                                                                                                                                </li>
-                                                                                                                                                                <li class="choice">
-                                                                                                                                                                    <div class="selection">Welcome</div>
-                                                                                                                                                                    <div class="response right">
-                                                                                                                                                                        <span class="right"><code><div class ="text-success">  <i class="ti-check"> </i>  Correcto </div></code> </span>
-                                                                                                                                                                        
-                                                                                                                                                                    </div>
-                                                                                                                                                                </li>
-                                                                                                                                                                <li class="choice">
-                                                                                                                                                                    <div class="selection">meet</div>
-                                                                                                                                                                    <div class="response wrong">
-                                                                                                                                                                        <span class="wrong"> <code> <i class="ti-close"> </i>  Recuerda lo visto en el modulo!</code> </span>
-                                                                                                                                                
-                                                                                                                                                                        
-                                                                                                                                                                    </div>
-                                                                                                                                                                </li>
-                                                                                                                                                            </ol>
-                                                                                                                                                   </div>
-                                                                                                                                                   <div class = "col-md-3"> 
-                                                                                                                                                   
-                                                                                                                                                        <div class="description">
-                                                                                                                                                                Nice to _____ you</div>
-                                                                                                                                                                    <ol type="a">
-                                                                                                                                                                <li class="choice">
-                                                                                                                                                                    <div class="selection">Where </div>
-                                                                                                                                                                    <div class="response wrong">
-                                                                                                                                                                        <span class="wrong"> <code> <i class="ti-close"> </i>  Seguro?</code> </span>
-                                                                                                                                                
-                                                                                                                                                                    </div>
-                                                                                                                                                                </li>
-                                                                                                                                                                <li class="choice">
-                                                                                                                                                                    <div class="selection">Welcome</div>
-                                                                                                                                                                    <div class="response wrong">
-                                                                                                                                                                        <span class="wrong"> <code> <i class="ti-close"> </i>  Recuerda lo visto en el modulo!</code> </span>
-                                                                                                                                                
-                                                                                                                                                                        
-                                                                                                                                                                    </div>
-                                                                                                                                                                </li>
-                                                                                                                                                                <li class="choice">
-                                                                                                                                                                    <div class="selection">meet</div>
-                                                                                                                                                                    <div class="response right">
-                                                                                                                                                                        <span class="right"><code><div class ="text-success">  <i class="ti-check"> </i>  Correcto es una forma de decir: Es un gusto conocerte </div></code></span>
-                                                                                                                                                                        
-                                                                                                                                                                    </div>
-                                                                                                                                                                </li>
-                                                                                                                                                            </ol>
-                                                                                                                                                
-                                                                                                                                                    
-                                                                                                                                                   </div>
-                                                                                                                                                   <div class = "col-md-3"> 
-                                                                                                                                                        <div class="description">
-                                                                                                                                                                _______ are you from?</div>
-                                                                                                                                                                      <ol type="a">
-                                                                                                                                                                 <li class="choice">
-                                                                                                                                                                     <div class="selection">Where </div>
-                                                                                                                                                                     <div class="response right">
-                                                                                                                                                                         <span class="right"> <code><div class ="text-success">  <i class="ti-check"> </i>  Correcto: De donde eres? </div></code></span>
-                                                                                                                                                                  </div>
-                                                                                                                                                                 </li>
-                                                                                                                                                                 <li class="choice">
-                                                                                                                                                                     <div class="selection">Welcome</div>
-                                                                                                                                                                     <div class="response wrong">
-                                                                                                                                                                         <span class="wrong"> <code> <i class="ti-close"> </i>  Recuerda lo visto en el modulo!</code> </span>
-                                                                                                                                                 
-                                                                                                                                                                         
-                                                                                                                                                                     </div>
-                                                                                                                                                                 </li>
-                                                                                                                                                                 <li class="choice">
-                                                                                                                                                                     <div class="selection">meet</div>
-                                                                                                                                                                     <div class="response wrong">
-                                                                                                                                                                         <span class="wrong"> <code> <i class="ti-close"> </i>  Recuerda lo visto en el modulo!</code> </span>
-                                                                                                                                                 
-                                                                                                                                                                         
-                                                                                                                                                                     </div>
-                                                                                                                                                                 </li>
-                                                                                                                                                             </ol>
-                                                                                                                                                   </div>
-                                                                                                                                                   
-                                                                                                                                                                          
-                                                                                                                                                               </div>
                                                                                                                                                </div>
                                                                                                                                                <div role="tabpanel" class="tab-pane fade" id="tab-success-5">
                                                                                                                                                     <br>
@@ -907,11 +928,37 @@
 
         <!-- build:js assets/js/vendor.js -->
         <!-- plugins js -->
+        <!-- build:js assets/js/vendor.js -->
+    <!-- plugins js -->
+    <script src="../../assets/vendors/jquery/dist/jquery.min.js"></script>
+    <script src="../../assets/vendors/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../../assets/vendors/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="../../assets/vendors/PACE/pace.min.js"></script>
+    <script src="../../assets/vendors/perfect-scrollbar/js/perfect-scrollbar.jquery.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js assets/js/app.min.js -->
+    <!-- core js -->
+    <script src="../../assets/js/app.js"></script>
+    <!-- endbuild -->
+
+    <!-- page plugins js -->
+    <script src="../../assets/vendors/selectize/dist/js/standalone/selectize.min.js"></script>
+    <script src="../../assets/vendors/moment/min/moment.min.js"></script>
+    <script src="../../assets/vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
+    <script src="../../assets/vendors/bootstrap-datepicker/dist/js/bootstrap-datepicker.js"></script>
+    <script src="../../assets/vendors/bootstrap-timepicker/js/bootstrap-timepicker.js"></script>
+    <script src="../../assets/vendors/summernote/dist/summernote.min.js"></script>
+
+    <!-- page js -->
+    <script src="../../assets/js/forms/form-elements.js"></script>
         <script src="../../assets/vendors/jquery/dist/jquery.min.js"></script>
         <script src="../../assets/vendors/popper.js/dist/umd/popper.min.js"></script>
         <script src="../../assets/vendors/bootstrap/dist/js/bootstrap.js"></script>
         <script src="../../assets/vendors/PACE/pace.min.js"></script>
         <script src="../../assets/vendors/perfect-scrollbar/js/perfect-scrollbar.jquery.js"></script>
+        <script src="../../assets/vendors/summernote/dist/summernote.min.js"></script>
+
 
         <!-- Progress plugins -->
         <script src="../../assets/js/progressbar.js"></script>

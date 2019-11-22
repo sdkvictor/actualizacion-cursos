@@ -284,252 +284,516 @@
                                                                                     <li class="nav-item">
                                                                                         <a href="#tab-success-3" class="nav-link" role="tab" data-toggle="tab">3</a>
                                                                                     </li>  
-                                                                                    <li class="nav-item">
-                                                                                            <a href="#tab-success-4" class="nav-link" role="tab" data-toggle="tab">4</a>
-                                                                                        </li>                                                                   
-                                                                                        <li class="nav-item">
-                                                                                                <a href="#tab-success-5" class="nav-link" role="tab" data-toggle="tab">5</a>
-                                                                                            </li> 
-                                                                                            <li class="nav-item">
-                                                                                                    <a href="#tab-success-6" class="nav-link" role="tab" data-toggle="tab">6</a>
-                                                                                                </li> 
+                                                                                    
                                                                                 </ul>
                                                                                 <div class="tab-content">
                                                                                     <div role="tabpanel" class="tab-pane fade in active" id="tab-success-1">
-                                                                                            <br>
-                                                                                            <div class="row">
-                                                                                                          
-                                            <div class = "col-md-3"> 
-                                            <div class="description">
-                                                            She______my Mother</div>
-                                                        <ol type="a">
-                                                            <li class="choice">
-                                                                <div class="selection">Nice. </div>
-                                                                <div class="response wrong"><span class="wrong"> <code> <i class="ti-close"> </i>  Seguro que es esa?</code> </span>
-                                                                </div>
-                                                            </li>
-                                                            <li class="choice">
-                                                                <div class="selection">Name</div>
-                                                                <div class="response wrong">
-                                                                    <span class="wrong"> <code> <i class="ti-close"> </i>  Recuerda lo visto en el modulo!</code> </span>
-                                                                    
-                                                                </div>
-                                                            </li>
-                                                            <li class="choice">
-                                                                <div class="selection">Is</div>
-                                                                <div class="response right">
-                                                                    <span class="right"> <code><div class ="text-success">  <i class="ti-check"> </i>  Correcto es una forma de decir Ella es mi mama! </div></code> </span>
-                                                                    
-                                                                </div>
-                                                            </li>
-                                                        </ol>
-                                            </div>
-                                            <div class = "col-md-3"> 
-
-                                                    <div class="description">
-                                                            ___ to meet you</div>
-                                                        <ol type="a">
-                                                            <li class="choice">
-                                                                <div class="selection">Nice. </div>
-                                                                <div class="response right">
-                                                                    <span class="right"> <code><div class ="text-success">  <i class="ti-check"> </i>  Correcto es una forma de decir Encantado de conocerte! </div></code> </span>
-                                            
-                                                                </div>
-                                                            </li>
-                                                            <li class="choice">
-                                                                <div class="selection">Name</div>
-                                                                <div class="response wrong">
-                                                                    <span class="wrong"> <code> <i class="ti-close"> </i>  Recuerda lo visto en el modulo!</code> </span>
-                                                                    
-                                                                </div>
-                                                            </li>
-                                                            <li class="choice">
-                                                                <div class="selection">Is</div>
-                                                                <div class="response wrong">
-                                                                    <span class="wrong"> <code> <i class="ti-close"> </i>  Seguro?</code> </span>
-                                                                    
-                                                                </div>
-                                                            </li>
-                                                        </ol>
-                                            </div>
-                                            <div class = "col-md-3"> 
-                                                    <div class="description">
-                                                            What`s your______</div>
-                                                        <ol type="a">
-                                                            <li class="choice">
-                                                                <div class="selection">Nice. </div>
-                                                                <div class="response wrong">
-                                                                    <span class="wrong"> <code> <i class="ti-close"> </i>  Estas seguro?</code> </span>
-                                                                </div>
-                                                            </li>
-                                                            <li class="choice">
-                                                                <div class="selection">Name</div>
-                                                                <div class="response right">
-                                                                    <span class="right"> <code><div class ="text-success">  <i class="ti-check"> </i>  Correcto es una forma de decir Cual es tu nombre? </div></code> </span>
-                                            
-                                                                    
-                                                                </div>
-                                                            </li>
-                                                            <li class="choice">
-                                                                <div class="selection">Is</div>
-                                                                <div class="response wrong">
-                                                                    <span class="wrong"> <code> <i class="ti-close"> </i>  Recuerda lo visto en el modulo!</code> </span>
-                                                                                </li>
-                                                        </ol>
-                                            </div>
-                                            
-                                                                                                               
-                                                                                                    </div>
-                                                                                                            
+                                                                                     <p> <i><small>  Selecciona las palabras que consideras deben ir en los cuadros de texto</small></i></p>
+                                                                                    <p>  Good Morning. Can I <select id="selectize-group" onchange="correct(this,'1')">
+                                                                                            <option value="">Select</option>
+                                                                                             
+                                                                                            <option value="1">help </option>
+                                                                                                <option value="2"> driver’s license</option>
+                                                                                                <option value="3">money</option>
+                                                                                                <option value="4">you</option>
+                                                                                                <option value="5">don’t</option>
+                                                                                                <option value="6">have</option>
+                                                                                                <option value="7">speak</option>
+                                                                                                <option value="8">cash</option>
+                                                                                                <option value="9">you</option>
+                                                                                                <option value="10">Do</option>
+                                                                                                <option value="11">resident</option>
+                                                                                            
+                                                                                           
+                                                                                            
+                                                                                        </select>  you?
+                                                                                        <br><br>Yes, please. I would like to <select id="selectize-group" onchange="correct(this,'8')">
+                                                                                                <option value="">Select</option>
+                                                                                                 
+                                                                                                <option value="1">help </option>
+                                                                                                    <option value="2"> driver’s license</option>
+                                                                                                    <option value="3">money</option>
+                                                                                                    <option value="4">you</option>
+                                                                                                    <option value="5">don’t</option>
+                                                                                                    <option value="6">have</option>
+                                                                                                    <option value="7">speak</option>
+                                                                                                    <option value="8">cash</option>
+                                                                                                    <option value="9">you</option>
+                                                                                                    <option value="10">Do</option>
+                                                                                                    <option value="11">resident</option>
+                                                                                                
+                                                                                               
+                                                                                                
+                                                                                            </select> this check.
+                                                                                            <br><br>Do you <select id="selectize-group" onchange="correct(this,'6')">
+                                                                                                <option value="">Select</option>
+                                                                                                 
+                                                                                                <option value="1">help </option>
+                                                                                                    <option value="2"> driver’s license</option>
+                                                                                                    <option value="3">money</option>
+                                                                                                    <option value="4">you</option>
+                                                                                                    <option value="5">don’t</option>
+                                                                                                    <option value="6">have</option>
+                                                                                                    <option value="7">speak</option>
+                                                                                                    <option value="8">cash</option>
+                                                                                                    <option value="9">you</option>
+                                                                                                    <option value="10">Do</option>
+                                                                                                    <option value="11">resident</option>
+                                                                                                
+                                                                                               
+                                                                                                
+                                                                                            </select> an account?
+                                                                                            <br><br>No, I <select id="selectize-group" onchange="correct(this,'5')">
+                                                                                                <option value="">Select</option>
+                                                                                                 
+                                                                                                <option value="1">help </option>
+                                                                                                    <option value="2"> driver’s license</option>
+                                                                                                    <option value="3">money</option>
+                                                                                                    <option value="4">you</option>
+                                                                                                    <option value="5">don’t</option>
+                                                                                                    <option value="6">have</option>
+                                                                                                    <option value="7">speak</option>
+                                                                                                    <option value="8">cash</option>
+                                                                                                    <option value="9">you</option>
+                                                                                                    <option value="10">Do</option>
+                                                                                                    <option value="11">resident</option>
+                                                                                                
+                                                                                               
+                                                                                                
+                                                                                            </select>.
+                                                                                            <br><br>I’m sorry. I don’t <select id="selectize-group" onchange="correct(this,'7')">
+                                                                                                <option value="">Select</option>
+                                                                                                 
+                                                                                                <option value="1">help </option>
+                                                                                                    <option value="2"> driver’s license</option>
+                                                                                                    <option value="3">money</option>
+                                                                                                    <option value="4">you</option>
+                                                                                                    <option value="5">don’t</option>
+                                                                                                    <option value="6">have</option>
+                                                                                                    <option value="7">speak</option>
+                                                                                                    <option value="8">cash</option>
+                                                                                                    <option value="9">you</option>
+                                                                                                    <option value="10">Do</option>
+                                                                                                    <option value="11">resident</option>
+                                                                                                
+                                                                                               
+                                                                                                
+                                                                                            </select> English very well.
+                                                                                            <br><br>Let me help <select id="selectize-group" onchange="correct(this,'4')">
+                                                                                                <option value="">Select</option>
+                                                                                                 
+                                                                                                <option value="1">help </option>
+                                                                                                    <option value="2"> driver’s license</option>
+                                                                                                    <option value="3">money</option>
+                                                                                                    <option value="4">you</option>
+                                                                                                    <option value="5">don’t</option>
+                                                                                                    <option value="6">have</option>
+                                                                                                    <option value="7">speak</option>
+                                                                                                    <option value="8">cash</option>
+                                                                                                    <option value="9">you</option>
+                                                                                                    <option value="10">Do</option>
+                                                                                                    <option value="11">resident</option>
+                                                                                                
+                                                                                               
+                                                                                                
+                                                                                            </select>.
+                                                                                            <br><br><select id="selectize-group" onchange="correct(this,'10')">
+                                                                                                <option value="">Select</option>
+                                                                                                 
+                                                                                                <option value="1">help </option>
+                                                                                                    <option value="2"> driver’s license</option>
+                                                                                                    <option value="3">money</option>
+                                                                                                    <option value="4">you</option>
+                                                                                                    <option value="5">don’t</option>
+                                                                                                    <option value="6">have</option>
+                                                                                                    <option value="7">speak</option>
+                                                                                                    <option value="8">cash</option>
+                                                                                                    <option value="9">you</option>
+                                                                                                    <option value="10">Do</option>
+                                                                                                    <option value="11">resident</option>
+                                                                                                
+                                                                                               
+                                                                                                
+                                                                                            </select> you have a driver’s license?
+                                                                                            <br><br>I’m sorry. I don’t have a <select id="selectize-group" onchange="correct(this,'2')">
+                                                                                                <option value="">Select</option>
+                                                                                                 
+                                                                                                <option value="1">help </option>
+                                                                                                    <option value="2"> driver’s license</option>
+                                                                                                    <option value="3">money</option>
+                                                                                                    <option value="4">you</option>
+                                                                                                    <option value="5">don’t</option>
+                                                                                                    <option value="6">have</option>
+                                                                                                    <option value="7">speak</option>
+                                                                                                    <option value="8">cash</option>
+                                                                                                    <option value="9">you</option>
+                                                                                                    <option value="10">Do</option>
+                                                                                                    <option value="11">resident</option>
+                                                                                                
+                                                                                               
+                                                                                                
+                                                                                            </select>-
+                                                                                            <br> <br>I have a <select id="selectize-group" onchange="correct(this,'11')">
+                                                                                                <option value="">Select</option>
+                                                                                                 
+                                                                                                <option value="1">help </option>
+                                                                                                    <option value="2"> driver’s license</option>
+                                                                                                    <option value="3">money</option>
+                                                                                                    <option value="4">you</option>
+                                                                                                    <option value="5">don’t</option>
+                                                                                                    <option value="6">have</option>
+                                                                                                    <option value="7">speak</option>
+                                                                                                    <option value="8">cash</option>
+                                                                                                    <option value="9">you</option>
+                                                                                                    <option value="10">Do</option>
+                                                                                                    <option value="11">resident</option>
+                                                                                                
+                                                                                               
+                                                                                                
+                                                                                            </select> alien card.
+                                                                                            <br><br>Here is your <select id="selectize-group" onchange="correct(this,'3')">
+                                                                                                <option value="">Select</option>
+                                                                                                 
+                                                                                                <option value="1">help </option>
+                                                                                                    <option value="2"> driver’s license</option>
+                                                                                                    <option value="3">money</option>
+                                                                                                    <option value="4">you</option>
+                                                                                                    <option value="5">don’t</option>
+                                                                                                    <option value="6">have</option>
+                                                                                                    <option value="7">speak</option>
+                                                                                                    <option value="8">cash</option>
+                                                                                                    <option value="9">you</option>
+                                                                                                    <option value="10">Do</option>
+                                                                                                    <option value="11">resident</option>
+                                                                                                
+                                                                                               
+                                                                                                
+                                                                                            </select>.
+                                                                                            <br><br>Thank <select id="selectize-group" onchange="correct(this,'9')">
+                                                                                                <option value="">Select</option>
+                                                                                                 
+                                                                                                <option value="1">help </option>
+                                                                                                    <option value="2"> driver’s license</option>
+                                                                                                    <option value="3">money</option>
+                                                                                                    <option value="4">you</option>
+                                                                                                    <option value="5">don’t</option>
+                                                                                                    <option value="6">have</option>
+                                                                                                    <option value="7">speak</option>
+                                                                                                    <option value="8">cash</option>
+                                                                                                    <option value="9">you</option>
+                                                                                                    <option value="10">Do</option>
+                                                                                                    <option value="11">resident</option>
+                                                                                                
+                                                                                               
+                                                                                                
+                                                                                            </select></p>
+                                                                                                                                                                    
                                                                                     </div>
-    
+    <script> function correct(elem,ans){
+            if(elem.value!=ans){
+                elem.style.borderColor="red";
+            }else{
+                elem.style.borderColor="#11cc22";
+                
+            }
+        }</script>
                                                                                     <div role="tabpanel" class="tab-pane fade" id="tab-success-2">
-    <br>
-    <div class="row">
-                  
-<div class = "col-md-3"> 
-        <div class="description">
-                Nice to meet you ______</div>
-            <ol type="a">
-                <li class="choice">
-                    <div class="selection">This. </div>
-                    <div class="response wrong">
-                        <span class="wrong"> <code> <i class="ti-close"> </i>  Recuerda lo visto en el modulo!</code> </span>
-
-                    </div>
-                </li>
-                <li class="choice">
-                    <div class="selection">too</div>
-                    <div class="response right">
-                        <span class="right"><code><div class ="text-success">  <i class="ti-check"> </i>  Correcto es una forma de decir es un gusto conocerte tambien! </div></code> </span>
-                        
-                    </div>
-                </li>
-                <li class="choice">
-                    <div class="selection">are</div>
-                    <div class="response wrong">
-                        <span class="wrong"> <code> <i class="ti-close"> </i>  Recuerda lo visto en clase!</code> </span>
-
-                        
-                    </div>
-                </li>
-            </ol>
-</div>
-<div class = "col-md-3"> 
-
-        <div class="description">
-                How____ you?</div>
-             <ol type="a">
-                 <li class="choice">
-                     <div class="selection">This. </div>
-                     <div class="response wrong">
-                         <span class="wrong"> <code> <i class="ti-close"> </i>  Seguro? </code></span>
- 
-                    </div>
-                 </li>
-                 <li class="choice">
-                     <div class="selection">too</div>
-                     <div class="response wrong">
-                         <span class="wrong"> <code> <i class="ti-close"> </i>  Recuerda lo visto en el modulo!</code> </span>
-                         
-                     </div>
-                 </li>
-                 <li class="choice">
-                     <div class="selection">are</div>
-                     <div class="response right">
-                         <span class="right"><code><div class ="text-success">  <i class="ti-check"> </i>  Correcto es como decir Como estas? </div></code> </span>
-                         
-                     </div>
-                 </li>
-             </ol>
- 
-</div>
-<div class = "col-md-3"> 
-        <div class="description">
-                ______ is my friend, Laura</div>
-             <ol type="a">
-                 <li class="choice">
-                     <div class="selection">This. </div>
-                     <div class="response right">
-                         <span class="right"> 
- <code><div class ="text-success">  <i class="ti-check"> </i>  Correcto </div></code>
- </span>
-                     </div>
-                 </li>
-                 <li class="choice">
-                     <div class="selection">too</div>
-                     <div class="response wrong">
-                         <span class="wrong"> <code> <i class="ti-close"> </i>  Recuerda lo visto en el modulo!</code> </span>
- 
-                         
-                     </div>
-                 </li>
-                 <li class="choice">
-                     <div class="selection">are</div>
-                     <div class="response wrong">
-                         <span class="wrong"> <code> <i class="ti-close"> </i>  Recuerda lo visto en el modulo!</code> </span>
- 
-                                     </li>
-             </ol>
-</div>
-
-                       
-            </div>
+                                                                                            &nbsp; &nbsp; 
+                                                                                            &nbsp; &nbsp; <p>  Select the correct amount of money in the blank space.</p>
+                                                                                    <div class = "row">
+                                                                                        
+                                                                                        <div class = "col-md-6">
+                                                                                                <div class="table-overflow">
+                                                                                                        <table class="table">
+                                                                                                            <thead>
+                                                                                                                <tr>
+                                                                                                                    <th>Money</th>
+                                                                                                                    <th>Quantity</th>
+                                                                                                                    
+                                                                                                                </tr>
+                                                                                                            </thead>
+                                                                                                            <tbody>
+                                                                                                                <tr>
+                                                                                                                    <td>$563.26</td>
+                                                                                                                    <td><select id="selectize-group" onchange="correct(this,'2')">
+                                                                                                                            <option value="">Select</option>
+                                                                                                                            
+                                                                                                                             
+                                                                                                                            
+                                                                                                                            <option value="1">eight hundred sixty three dollars and twenty seven cents</option>
+                                                                                                                                <option value="2">five hundred sixty three dollars and twenty six cents </option>
+                                                                                                                                <option value="3">twenty four dollars and ninety five cents</option>
+                                                                                                                                <option value="4">one hundred twenty five dollars and eighty eight cents</option>
+                                                                                                                                <option value="5">seventy eight dollars and sixty four cents</option>
+                                                                                                                               
+                                                                                                                           
+                                                                                                                            
+                                                                                                                        </select></td>
+                                                                                                                    
+                                                                                                                </tr>
+                                                                                                                <tr>
+                                                                                                                    <td>$78.64</td>
+                                                                                                                    <td><select id="selectize-group" onchange="correct(this,'5')">
+                                                                                                                            <option value="">Select</option>
+                                                                                                                            
+                                                                                                                             
+                                                                                                                            
+                                                                                                                            <option value="1">eight hundred sixty three dollars and twenty seven cents</option>
+                                                                                                                                <option value="2">five hundred sixty three dollars and twenty six cents </option>
+                                                                                                                                <option value="3">twenty four dollars and ninety five cents</option>
+                                                                                                                                <option value="4">one hundred twenty five dollars and eighty eight cents</option>
+                                                                                                                                <option value="5">seventy eight dollars and sixty four cents</option>
+                                                                                                                               
+                                                                                                                           
+                                                                                                                            
+                                                                                                                        </select></td>
+                                                                                                                    
+                                                                                                                </tr>
+                                                                                                                <tr>
+                                                                                                                    <td>$125.88</td>
+                                                                                                                    <td><select id="selectize-group" onchange="correct(this,'4')">
+                                                                                                                            <option value="">Select</option>
+                                                                                                                            
+                                                                                                                             
+                                                                                                                            
+                                                                                                                            <option value="1">eight hundred sixty three dollars and twenty seven cents</option>
+                                                                                                                                <option value="2">five hundred sixty three dollars and twenty six cents </option>
+                                                                                                                                <option value="3">twenty four dollars and ninety five cents</option>
+                                                                                                                                <option value="4">one hundred twenty five dollars and eighty eight cents</option>
+                                                                                                                                <option value="5">seventy eight dollars and sixty four cents</option>
+                                                                                                                               
+                                                                                                                           
+                                                                                                                            
+                                                                                                                        </select></td>
+                                                                                                                      
+                                                                                                                </tr>
+                                                                                                                <tr>
+                                                                                                                <td>$24.95</td>
+                                                                                                                <td><select id="selectize-group" onchange="correct(this,'3')">
+                                                                                                                        <option value="">Select</option>
+                                                                                                                        
+                                                                                                                         
+                                                                                                                        
+                                                                                                                        <option value="1">eight hundred sixty three dollars and twenty seven cents</option>
+                                                                                                                            <option value="2">five hundred sixty three dollars and twenty six cents </option>
+                                                                                                                            <option value="3">twenty four dollars and ninety five cents</option>
+                                                                                                                            <option value="4">one hundred twenty five dollars and eighty eight cents</option>
+                                                                                                                            <option value="5">seventy eight dollars and sixty four cents</option>
+                                                                                                                           
+                                                                                                                       
+                                                                                                                        
+                                                                                                                    </select></td>
+                                                                                                                
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                    <td>$863.27</td>
+                                                                                                                    <td><select id="selectize-group" onchange="correct(this,'1')">
+                                                                                                                            <option value="">Select</option>
+                                                                                                                            
+                                                                                                                             
+                                                                                                                            
+                                                                                                                            <option value="1">eight hundred sixty three dollars and twenty seven cents</option>
+                                                                                                                                <option value="2">five hundred sixty three dollars and twenty six cents </option>
+                                                                                                                                <option value="3">twenty four dollars and ninety five cents</option>
+                                                                                                                                <option value="4">one hundred twenty five dollars and eighty eight cents</option>
+                                                                                                                                <option value="5">seventy eight dollars and sixty four cents</option>
+                                                                                                                               
+                                                                                                                           
+                                                                                                                            
+                                                                                                                        </select></td>
+                                                                                                                    
+                                                                                                                </tr>
+                                                                                                                
+                                                                                                                   
+                                                                                                            </tbody>
+                                                                                                        </table>
+                                                                                                    </div>
                                                                                         </div>
+                                                                                    
+                                                                                
+                                                                                <div class = "col-md-6">
+                                                                                     
+                                                                                                <div class="table-overflow">
+                                                                                                        <table class="table">
+                                                                                                            <thead>
+                                                                                                                <tr>
+                                                                                                                    <th>Money</th>
+                                                                                                                    <th>Quantity</th>
+                                                                                                                    
+                                                                                                                </tr>
+                                                                                                            </thead>
+                                                                                                            <tbody>
+                                                                                                                
+                                                                                                                <tr>
+                                                                                                                    <td>$15.82</td>
+                                                                                                                    <td><select id="selectize-group" onchange="correct(this,'5')">
+                                                                                                                            <option value="">Select</option>
+                                                                                                                           
+                                                                                                                              
+                                                                                                                              
+                                                                                                                            
+                                                                                                                            
+                                                                                                                            
+                                                                                                                            <option value="1">one hundred seven dollars and thirty one cents</option>
+                                                                                                                                <option value="2">one dollars and fifty four cents</option>
+                                                                                                                                <option value="3">thirteen dollars and ninety nine cents  </option>
+                                                                                                                                <option value="4">two hundred ninety eight dollars and forty two cents</option>
+                                                                                                                                <option value="5">fifteen  dollars and eighty two cents  </option>
+                                                                                                                              
+                                                                                                                    
+                                                                                                                        </select></td>
+                                                                                                                    
+                                                                                                                </tr>
+                                                                                                                <tr>
+                                                                                                                    <td>$298.42</td>
+                                                                                                                    <td><select id="selectize-group" onchange="correct(this,'4')">
+                                                                                                                            <option value="">Select</option>
+                                                                                                                           
+                                                                                                                              
+                                                                                                                              
+                                                                                                                            
+                                                                                                                            
+                                                                                                                            
+                                                                                                                            <option value="1">one hundred seven dollars and thirty one cents</option>
+                                                                                                                                <option value="2">one dollars and fifty four cents</option>
+                                                                                                                                <option value="3">thirteen dollars and ninety nine cents  </option>
+                                                                                                                                <option value="4">two hundred ninety eight dollars and forty two cents</option>
+                                                                                                                                <option value="5">fifteen  dollars and eighty two cents  </option>
+                                                                                                                              
+                                                                                                                    
+                                                                                                                        </select></td>
+                                                                                                                      
+                                                                                                                </tr>
+                                                                                                                <tr>
+                                                                                                                <td>$13.99</td>
+                                                                                                                <td><select id="selectize-group" onchange="correct(this,'3')">
+                                                                                                                        <option value="">Select</option>
+                                                                                                                       
+                                                                                                                        <option value="1">one hundred seven dollars and thirty one cents</option>
+                                                                                                                            <option value="2">one dollars and fifty four cents</option>
+                                                                                                                            <option value="3">thirteen dollars and ninety nine cents  </option>
+                                                                                                                            <option value="4">two hundred ninety eight dollars and forty two cents</option>
+                                                                                                                            <option value="5">fifteen  dollars and eighty two cents  </option>
+                                                                                                                          
+                                                                                                                
+                                                                                                                    </select></td>
+                                                                                                                
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                                    <td>$107.31</td>
+                                                                                                                    <td><select id="selectize-group" onchange="correct(this,'1')">
+                                                                                                                            <option value="">Select</option>
+                                                                                                                           
+                                                                                                                            
+                                                                                                                            <option value="1">one hundred seven dollars and thirty one cents</option>
+                                                                                                                                <option value="2">one dollars and fifty four cents</option>
+                                                                                                                                <option value="3">thirteen dollars and ninety nine cents  </option>
+                                                                                                                                <option value="4">two hundred ninety eight dollars and forty two cents</option>
+                                                                                                                                <option value="5">fifteen  dollars and eighty two cents  </option>
+                                                                                                                              
+                                                                                                                    
+                                                                                                                        </select></td>
+                                                                                                                    
+                                                                                                                </tr>
+                                                                                                                <tr>
+                                                                                                                        <td>$1.54</td>
+                                                                                                                        <td><select id="selectize-group" onchange="correct(this,'2')">
+                                                                                                                                <option value="">Select</option>
+                                                                                                                               
+                                                                                                                                
+                                                                                                                                <option value="1">one hundred seven dollars and thirty one cents</option>
+                                                                                                                                    <option value="2">one dollars and fifty four cents</option>
+                                                                                                                                    <option value="3">thirteen dollars and ninety nine cents  </option>
+                                                                                                                                    <option value="4">two hundred ninety eight dollars and forty two cents</option>
+                                                                                                                                    <option value="5">fifteen  dollars and eighty two cents  </option>
+                                                                                                                                  
+                                                                                                                        
+                                                                                                                            </select></td>
+                                                                                                                        
+                                                                                                                    </tr>
+                                                                                                                    
+                                                                                                            </tbody>
+                                                                                                        </table>
+                                                                                                    </div>
+                                                                                </div>
+                                                                                    
+                                                                                </div>
+                                                                                </div>
                                         
                                                                                     <div role="tabpanel" class="tab-pane fade" id="tab-success-3">
                                                                                   <br>
                                                                                   <div class="row">
                   
-                                                                                        <div class = "col-md-3"> 
+                                                                                        <div class = "col-md-4"> 
                                                                                                 <div class="description">
-                                                                                                        Would you___ something to drink? </div>
+                                                                                                      <p>  <small> 1. You go to the post office. You want to buy stamps. The stamps cost $18.50. You also buy some envelopes. They cost $2.00. How much do you pay at the post office? </small></p> </div>
                                                                                                     <ol type="a">
                                                                                                         <li class="choice">
-                                                                                                            <div class="selection">need. </div>
+                                                                                                              
+                                                                                                            <div class="selection">Eighteen dollars and fifty cents </div>
                                                                                                             <div class="response wrong">
-                                                                                                                <span class="wrong"> <code> <i class="ti-close"> </i>  Recuerda lo visto en el modulo!</code> </span>
+                                                                                                                <span class="wrong"> <code> <i class="ti-close"> </i>  Incorrecto!</code> </span>
                                                                                         
                                                                                                             </div>
                                                                                                         </li>
                                                                                                         <li class="choice">
-                                                                                                            <div class="selection">you</div>
+                                                                                                            <div class="selection">Twenty cents and fifty dollars </div>
                                                                                                             <div class="response wrong">
-                                                                                                                <span class="wrong"> <code> <i class="ti-close"> </i>  Recuerda lo visto en el modulo!</code> </span>
+                                                                                                                <span class="wrong"> <code> <i class="ti-close"> </i>  Incorrecto!</code> </span>
                                                                                         
                                                                                                                 
                                                                                                             </div>
                                                                                                         </li>
                                                                                                         <li class="choice">
-                                                                                                            <div class="selection">like</div>
+                                                                                                            <div class="selection">Twenty dollars and fifty cents </div>
                                                                                                             <div class="response right">
-                                                                                                                <span class="right"><code><div class ="text-success">  <i class="ti-check"> </i>  Correcto: Quieres algo de tomar? </div></code></span>
+                                                                                                                <span class="right"><code><div class ="text-success">  <i class="ti-check"> </i>  Correcto! </div></code></span>
                                                                                                                 
                                                                                                             </div>
                                                                                                         </li>
+                                                                                                        <li class="choice">
+                                                                                                                <div class="selection">Twenty dollars </div>
+                                                                                                                <div class="response wrong">
+                                                                                                                    <span class="wrong"> <code> <i class="ti-close"> </i>  Incorrecto!</code> </span>
+                                                                                            
+                                                                                                                    
+                                                                                                                </div>
+                                                                                                            </li>
+
+                                                                                                        
                                                                                                     </ol>
                                                                                         </div>
-                                                                                        <div class = "col-md-3"> 
+                                                                                        <div class = "col-md-4"> 
                                                                                         
                                                                                                 <div class="description">
-                                                                                                        If you _____ anything, ask me</div>
-                                                                                                               <ol type="a">
+                                                                                                        <p> <small> 2. Your brother wants to buy a cheeseburger and French fries. That costs $3.50. You want to buy a Coke, French fries, and a chicken sandwich. That costs $5.50. How much will you pay?</small></p></div>
+                                                                                                           <ol type="a">
+                                                                                                                  
+                                                                                                                    <li class="choice">
+                                                                                                                            <div class="selection">Eight dollars and fifty cents </div>
+                                                                                                                            <div class="response wrong">
+                                                                                                                                <span class="wrong"> <code> <i class="ti-close"> </i>  Incorrecto!</code> </span>
+                                                                                                        
+                                                                                                                                
+                                                                                                                            </div>
+                                                                                                                        </li>
                                                                                                         <li class="choice">
-                                                                                                            <div class="selection">need. </div>
+                                                                                                            <div class="selection">Nine dollars </div>
                                                                                                             <div class="response right">
                                                                                                                 <span class="right"> <code><div class ="text-success">  <i class="ti-check"> </i>  Correcto </div></code> </span>
                                                                                                             </div>
                                                                                                         </li>
+                                                                                                        
                                                                                                         <li class="choice">
-                                                                                                            <div class="selection">you</div>
-                                                                                                            <div class="response wrong">
-                                                                                                                <span class="wrong"> <code> <i class="ti-close"> </i>  Recuerda lo visto en el modulo!</code> </span>
-                                                                                        
-                                                                                                                
-                                                                                                            </div>
-                                                                                                        </li>
+                                                                                                                <div class="selection">Nine dollars and fifty cents </div>
+                                                                                                                <div class="response wrong">
+                                                                                                                    <span class="wrong"> <code> <i class="ti-close"> </i>  Incorrecto!</code> </span>
+                                                                                            
+                                                                                                                    
+                                                                                                                </div>
+                                                                                                            </li>
                                                                                                         <li class="choice">
-                                                                                                            <div class="selection">like</div>
+                                                                                                            <div class="selection"> Ten dollars</div>
                                                                                                             <div class="response wrong">
                                                                                                                 <span class="wrong"><span class="wrong"> <code> <i class="ti-close"> </i>  Seguro?</code> </span>
                                                                                         </span>
@@ -539,32 +803,42 @@
                                                                                                     </ol>
                                                                                          
                                                                                         </div>
-                                                                                        <div class = "col-md-3"> 
+                                                                                        <div class = "col-md-4"> 
                                                                                                 <div class="description">
-                                                                                                        Thank_____ very much</div>
-                                                                                                                <ol type="a">
+                                                                                                       <p> <small>  3. You go to the gas station to buy gas. That costs $38.00. You go inside to pay. You also buy chips and a Coke for $1.99. How much do you pay? </small></p></div>
+                                                                                                           <ol type="a">
+                                                                                                                        
                                                                                                         <li class="choice">
-                                                                                                            <div class="selection">need. </div>
+                                                                                                            <div class="selection">Forty dollars </div>
                                                                                                             <div class="response wrong">
                                                                                                                 <span class="wrong"> <code> <i class="ti-close"> </i>  Seguro?</code> </span>
                                                                                         
                                                                                                             </div>
                                                                                                         </li>
                                                                                                         <li class="choice">
-                                                                                                            <div class="selection">you</div>
-                                                                                                            <div class="response right">
-                                                                                                                <span class="right"><code><div class ="text-success">  <i class="ti-check"> </i>  Correcto esto es: Muchas gracias </div></code></span>
-                                                                                                                
-                                                                                                            </div>
-                                                                                                        </li>
+                                                                                                                <div class="selection">Thirty eight dollars and ninety cents </div>
+                                                                                                                <div class="response wrong">
+                                                                                                                    <span class="wrong"> <code> <i class="ti-close"> </i>  Incorrecto!</code> </span>
+                                                                                            
+                                                                                                                    
+                                                                                                                </div>
+                                                                                                            </li>
+                                                                                                            <li class="choice">
+                                                                                                                    <div class="selection">Thirty nine dollars</div>
+                                                                                                                    <div class="response wrong">
+                                                                                                                        <span class="wrong"> <code> <i class="ti-close"> </i>  Incorrecto!</code> </span>
+                                                                                                
+                                                                                                                        
+                                                                                                                    </div>
+                                                                                                                </li>
                                                                                                         <li class="choice">
-                                                                                                            <div class="selection">like</div>
-                                                                                                            <div class="response wrong">
-                                                                                                                <span class="wrong"> <code> <i class="ti-close"> </i>  Recuerda lo visto en el modulo!</code> </span>
-                                                                                        
+                                                                                                            <div class="selection">Thirty nine dollars and ninety nine cents</div>
+                                                                                                            <div class="response right">
+                                                                                                                <span class="right"><code><div class ="text-success">  <i class="ti-check"> </i>  Correcto! </div></code></span>
                                                                                                                 
                                                                                                             </div>
                                                                                                         </li>
+                                                                                                        
                                                                                                     </ol>
                                                                                         </div>
                                                                                         
@@ -585,7 +859,7 @@
                                                                                                                                                                 <li class="choice">
                                                                                                                                                                     <div class="selection">Where </div>
                                                                                                                                                                     <div class="response wrong">
-                                                                                                                                                                        <span class="wrong"> <code> <i class="ti-close"> </i>  Recuerda lo visto en el modulo!</code> </span>
+                                                                                                                                                                        <span class="wrong"> <code> <i class="ti-close"> </i>  Incorrecto!</code> </span>
                                                                                                                                                 
                                                                                                                                                                     </div>
                                                                                                                                                                 </li>
@@ -599,7 +873,7 @@
                                                                                                                                                                 <li class="choice">
                                                                                                                                                                     <div class="selection">meet</div>
                                                                                                                                                                     <div class="response wrong">
-                                                                                                                                                                        <span class="wrong"> <code> <i class="ti-close"> </i>  Recuerda lo visto en el modulo!</code> </span>
+                                                                                                                                                                        <span class="wrong"> <code> <i class="ti-close"> </i>  Incorrecto!</code> </span>
                                                                                                                                                 
                                                                                                                                                                         
                                                                                                                                                                     </div>
@@ -621,7 +895,7 @@
                                                                                                                                                                 <li class="choice">
                                                                                                                                                                     <div class="selection">Welcome</div>
                                                                                                                                                                     <div class="response wrong">
-                                                                                                                                                                        <span class="wrong"> <code> <i class="ti-close"> </i>  Recuerda lo visto en el modulo!</code> </span>
+                                                                                                                                                                        <span class="wrong"> <code> <i class="ti-close"> </i>  Incorrecto!</code> </span>
                                                                                                                                                 
                                                                                                                                                                         
                                                                                                                                                                     </div>
@@ -650,7 +924,7 @@
                                                                                                                                                                  <li class="choice">
                                                                                                                                                                      <div class="selection">Welcome</div>
                                                                                                                                                                      <div class="response wrong">
-                                                                                                                                                                         <span class="wrong"> <code> <i class="ti-close"> </i>  Recuerda lo visto en el modulo!</code> </span>
+                                                                                                                                                                         <span class="wrong"> <code> <i class="ti-close"> </i>  Incorrecto!</code> </span>
                                                                                                                                                  
                                                                                                                                                                          
                                                                                                                                                                      </div>
@@ -658,7 +932,7 @@
                                                                                                                                                                  <li class="choice">
                                                                                                                                                                      <div class="selection">meet</div>
                                                                                                                                                                      <div class="response wrong">
-                                                                                                                                                                         <span class="wrong"> <code> <i class="ti-close"> </i>  Recuerda lo visto en el modulo!</code> </span>
+                                                                                                                                                                         <span class="wrong"> <code> <i class="ti-close"> </i>  Incorrecto!</code> </span>
                                                                                                                                                  
                                                                                                                                                                          
                                                                                                                                                                      </div>
@@ -687,7 +961,7 @@
                                                                                                                                                                         <li class="choice">
                                                                                                                                                                             <div class="selection">present</div>
                                                                                                                                                                             <div class="response wrong">
-                                                                                                                                                                                <span class="wrong"> <code> <i class="ti-close"> </i>  Recuerda lo visto en el modulo!</code> </span>
+                                                                                                                                                                                <span class="wrong"> <code> <i class="ti-close"> </i>  Incorrecto!</code> </span>
                                                                                                                                                         
                                                                                                                                                                                 
                                                                                                                                                                             </div>
@@ -702,7 +976,7 @@
                                                                                                                                                                             <li class="choice">
                                                                                                                                                                             <div class="selection">hello</div>
                                                                                                                                                                             <div class="response wrong">
-                                                                                                                                                                                <span class="wrong"> <code> <i class="ti-close"> </i>  Recuerda lo visto en el modulo!</code> </span>
+                                                                                                                                                                                <span class="wrong"> <code> <i class="ti-close"> </i>  Incorrecto!</code> </span>
                                                                                                                                                         
                                                                                                                                                                                 
                                                                                                                                                                             </div>
@@ -723,7 +997,7 @@
                                                                                                                                                              <li class="choice">
                                                                                                                                                                  <div class="selection">present</div>
                                                                                                                                                                  <div class="response wrong">
-                                                                                                                                                                     <span class="wrong"> <code> <i class="ti-close"> </i>  Recuerda lo visto en el modulo!</code> </span>
+                                                                                                                                                                     <span class="wrong"> <code> <i class="ti-close"> </i>  Incorrecto!</code> </span>
                                                                                                                                              
                                                                                                                                                                      
                                                                                                                                                                  </div>
@@ -731,7 +1005,7 @@
                                                                                                                                                              <li class="choice">
                                                                                                                                                                  <div class="selection">Pedro</div>
                                                                                                                                                                  <div class="response wrong">
-                                                                                                                                                                     <span class="wrong"> <code> <i class="ti-close"> </i>  Recuerda lo visto en el modulo!</code> </span>
+                                                                                                                                                                     <span class="wrong"> <code> <i class="ti-close"> </i>  Incorrecto!</code> </span>
                                                                                                                                              
                                                                                                                                                                      
                                                                                                                                                                  </div>
@@ -761,7 +1035,7 @@
                                                                                                                                                                         <li class="choice">
                                                                                                                                                                             <div class="selection">present</div>
                                                                                                                                                                             <div class="response wrong">
-                                                                                                                                                                                <span class="wrong"> <code> <i class="ti-close"> </i>  Recuerda lo visto en el modulo!</code> </span>
+                                                                                                                                                                                <span class="wrong"> <code> <i class="ti-close"> </i>  Incorrecto!</code> </span>
                                                                                                                                                         
                                                                                                                                                                                 
                                                                                                                                                                             </div>
@@ -769,7 +1043,7 @@
                                                                                                                                                                         <li class="choice">
                                                                                                                                                                             <div class="selection">Pedro</div>
                                                                                                                                                                             <div class="response wrong">
-                                                                                                                                                                                <span class="wrong"> <code> <i class="ti-close"> </i>  Recuerda lo visto en el modulo!</code> </span>
+                                                                                                                                                                                <span class="wrong"> <code> <i class="ti-close"> </i>  Incorrecto!</code> </span>
                                                                                                                                                         
                                                                                                                                                                                 
                                                                                                                                                                             </div>
@@ -777,7 +1051,7 @@
                                                                                                                                                                             <li class="choice">
                                                                                                                                                                             <div class="selection">hello</div>
                                                                                                                                                                             <div class="response wrong">
-                                                                                                                                                                                <span class="wrong"> <code> <i class="ti-close"> </i>  Recuerda lo visto en el modulo!</code> </span>
+                                                                                                                                                                                <span class="wrong"> <code> <i class="ti-close"> </i>  Incorrecto!</code> </span>
                                                                                                                                                         
                                                                                                                                                                                 
                                                                                                                                                                             </div>
@@ -793,7 +1067,7 @@
                                                                                                                                                                         <li class="choice">
                                                                                                                                                                             <div class="selection">Birthay. </div>
                                                                                                                                                                             <div class="response wrong">
-                                                                                                                                                                                <span class="wrong"> <code> <i class="ti-close"> </i>  Recuerda lo visto en el modulo!</code> </span>
+                                                                                                                                                                                <span class="wrong"> <code> <i class="ti-close"> </i>  Incorrecto!</code> </span>
                                                                                                                                                         
                                                                                                                                                                             </div>
                                                                                                                                                                         </li>
@@ -807,7 +1081,7 @@
                                                                                                                                                                         <li class="choice">
                                                                                                                                                                             <div class="selection">Pedro</div>
                                                                                                                                                                             <div class="response wrong">
-                                                                                                                                                                                <span class="wrong"> <code> <i class="ti-close"> </i>  Recuerda lo visto en el modulo!</code> </span>
+                                                                                                                                                                                <span class="wrong"> <code> <i class="ti-close"> </i>  Incorrecto!</code> </span>
                                                                                                                                                         
                                                                                                                                                                                 
                                                                                                                                                                             </div>
@@ -815,7 +1089,7 @@
                                                                                                                                                                             <li class="choice">
                                                                                                                                                                             <div class="selection">hello</div>
                                                                                                                                                                             <div class="response wrong">
-                                                                                                                                                                                <span class="wrong"> <code> <i class="ti-close"> </i>  Recuerda lo visto en el modulo!</code> </span>
+                                                                                                                                                                                <span class="wrong"> <code> <i class="ti-close"> </i>  Incorrecto!</code> </span>
                                                                                                                                                         
                                                                                                                                                                                 
                                                                                                                                                                             </div>
@@ -827,6 +1101,7 @@
                                                                                                                                                                                  
                                                                                                                                                                       </div>
                                                                                                                                                       </div>
+                                                                                                                                                      
                                                                                                   
                                                                                 </div>
                                                                             </div>

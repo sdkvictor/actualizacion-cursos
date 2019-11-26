@@ -70,7 +70,7 @@
     left: 5%;
   }
   #circle.progress.blue .progress-bar{
-    border-color: #40803E;
+    border-color: #093b8b;
   }
   #circle.progress.blue .progress-left .progress-bar{
     animation: loading-2 1.0s linear forwards 1.05s;
@@ -96,7 +96,7 @@
   }
 
   #bar {
-    color: #049dff;
+    color: #093b8b;
   }
 
   @media only screen and (max-width: 990px){
@@ -106,8 +106,8 @@
   .progress .progress-bar {
     width: 0;
     animation: progress 2.0s ease-in-out forwards;
-  } 
-  
+  }
+
   @keyframes progress {
     from {
       width: 0;

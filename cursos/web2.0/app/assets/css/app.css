@@ -3691,3 +3691,28 @@ glyphs.character-mapping { margin: 0 0 20px 0; padding: 20px 0 20px 30px; color:
 /*----------------------------
 --------- 2. Personalización ---------
 ----------------------------*/
+
+/*-- Para el carousel de librito de cursos de DP --*/
+.carousel-item{
+  height: 80vh;
+} 
+
+.carousel-item img{
+  margin: 0 auto;
+}
+
+.btn-actual-page {
+  background-color: var(--theme-color);
+  border-color: var(--theme-color);
+  color: #ffffff;
+}
+
+.btn-actual-page span {
+  color: #ffffff;
+}
+
+/*-- Para el carousel de librito de cursos de DP --*/
+.credits-title { font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif; color: var(--theme-color); margin-top: 0px; line-height: 25px; }
+
+/*-- Para los botones de creditos --*/
+.btn-credits { background-color: var(--theme-color); border-color: var(--theme-color); color: #ffffff; }

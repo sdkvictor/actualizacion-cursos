@@ -179,5 +179,7 @@
 	    cardPortletCtrl();
 	    themeColorConfig();
 	}
-	init();
+	setTimeout(() => {
+		init();
+	}, 100);
 })(jQuery);

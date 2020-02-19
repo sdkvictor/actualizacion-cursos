@@ -5,7 +5,7 @@
   Reglas individuales de cada curso (personalización): agregarlas en sección 2
   al final del archivo.
 
-  Para cambiar alguna regla, comentar la regla correspondiente en la sección general 
+  Para cambiar alguna regla, comentar la regla correspondiente en la sección general
   y agregar la modificada en la sección 2, indicando el número de línea donde se encuentra
   la regla que reemplaza. En caso de que no reemplaze a ninguna, no poner nada.
 ----------------------------------------------------------------------------*/
@@ -3654,8 +3654,8 @@ glyphs.character-mapping { margin: 0 0 20px 0; padding: 20px 0 20px 30px; color:
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  background-color: transparent;
-  border: 2px solid #e74c3c;
+  background-color: #051a23!important;
+  /* border: 2px solid #e74c3c; */
   border-radius: 0.6em;
   color: #e74c3c;
   cursor: pointer;
@@ -3675,9 +3675,9 @@ glyphs.character-mapping { margin: 0 0 20px 0; padding: 20px 0 20px 30px; color:
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
 
-  border-color: var(--theme-color);
+  /* border-color: var(--theme-color); */
   color: #fff;
-  box-shadow: 0 0 40px 40px var(--theme-color) inset, 0 0 0 0 var(--theme-color);
+  /* box-shadow: 0 0 40px 40px var(--theme-color) inset, 0 0 0 0 var(--theme-color); */
   -webkit-transition: all 150ms ease-in-out;
   transition: all 150ms ease-in-out;
 
@@ -3697,7 +3697,7 @@ glyphs.character-mapping { margin: 0 0 20px 0; padding: 20px 0 20px 30px; color:
 /*-- Para el carousel de librito de cursos de DP --*/
 .carousel-item{
   height: 80vh;
-} 
+}
 
 .carousel-item img{
   margin: 0 auto;
@@ -3718,3 +3718,15 @@ glyphs.character-mapping { margin: 0 0 20px 0; padding: 20px 0 20px 30px; color:
 
 /*-- Para los botones de creditos --*/
 .btn-credits { background-color: var(--theme-color); border-color: var(--theme-color); color: #ffffff; }
+
+/* Cambios al color palette */
+.header{
+  background-color: #2a5769!important;
+}
+
+.card-title{
+  color: #4b5b68;
+}
+
+/* Todos :
+ Cambiar color verde de transicion boton */

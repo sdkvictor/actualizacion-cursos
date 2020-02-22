@@ -3728,5 +3728,14 @@ glyphs.character-mapping { margin: 0 0 20px 0; padding: 20px 0 20px 30px; color:
   color: #4b5b68;
 }
 
-/* Todos :
- Cambiar color verde de transicion boton */
+/* Fixed width of menu items module intro*/
+.mod2nav{
+  width:300px!important;
+} 
+.card-subtitle{
+  text-align: center;
+}
+
+.title-content{
+  text-align: center;
+}

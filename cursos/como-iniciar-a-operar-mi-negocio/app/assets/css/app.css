@@ -3739,3 +3739,7 @@ glyphs.character-mapping { margin: 0 0 20px 0; padding: 20px 0 20px 30px; color:
 .title-content{
   text-align: center;
 }
+
+.pointer {
+  cursor: pointer;
+}
